@@ -1,6 +1,6 @@
 
 # consider-herbs
-Consider Herbs is a MERN stack web app and e-commerce site allowing visitors to learn about and purchase herbs, as well as viewing wellness videos produced and curated by the brand. This app also features an admin backend to give the brand hands-on access to update the site and store's contents.
+Consider Herbs is a Jamstack web app and e-commerce site built using Gatsby with React components, allowing visitors to learn about and purchase herbs, as well as viewing wellness videos produced and curated by the brand. This app also integrates with a CMS to give the client hands-on access to update the site's and store's contents.
 
 This app serves the term project for the University of Florida's CEN3031 Spring 2021 course
 
@@ -15,10 +15,9 @@ This app serves the term project for the University of Florida's CEN3031 Spring 
 
 ### Technologies Used
 
+ - Gatsby
  - React
- - MongoDB & Mongoose
- - Express
- - Bootstrap React or Material UI TBD
+ - TBD CMS service
  - Stripe API
  - use-shopping-cart
  - YouTube API
@@ -28,4 +27,4 @@ Here, the group will update the **Readme.md** with development progress as the a
 
 Featured will be `installation instructions`...
 
-As well as screenshots of the site and store,
+As well as screenshots of the site and store and their functionalities.
