@@ -8,7 +8,9 @@ This app serves the term project for the University of Florida's CEN3031 Spring 
 
 ### Contributors
 [Michael Pascuzzi](https://github.com/gatorpazz)
+
 [Omar Rahman](https://github.com/IBeRamen)
+
 [Jeremy DePoyster](https://github.com/maulgoth)
 
 ### Technologies Used
