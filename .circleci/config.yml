@@ -1,7 +1,11 @@
 version: '2.1'
 orbs:
   jest: blimmer/jest@0.2.1
+  welcome: circleci/welcome-orb@0.4.1
 workflows:
   test:
     jobs:
       - jest/test
+  welcome:
+    jobs:
+      - welcome/run
