@@ -1,28 +1,7 @@
 version: '2.1'
 orbs:
-  gatsby: orangegrove1955/gatsby-orb@1.0.0
-jobs:
-  checkout_code:
-    executor:
-      name: gatsby/default
-    steps:
-      - checkout
-      - persist_to_workspace:
-          paths: .
-          root: .
+  jest: blimmer/jest@x.y.z
 workflows:
-  build:
-    jobs:
-      - gatsby/build:
-          name: build_Gatsby_code
-          requires:
-            - test_Gatsby_code
-  checkout:
-    jobs:
-      - checkout_code
   test:
     jobs:
-      - gatsby/test:
-          name: test_Gatsby_code
-          requires:
-            - checkout_code
+      - jest/test
