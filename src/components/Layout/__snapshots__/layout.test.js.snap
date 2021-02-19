@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout renders correctly 1`] = `
+<div>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <header>
+    <nav>
+      <h2>
+        This is the footer.
+      </h2>
+      <ul>
+        <li>
+          <a
+            href="/"
+          >
+            Go Back Home
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>
+`;
