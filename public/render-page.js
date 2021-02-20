@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("/Users/gatorpazz/projects/consider-herbs/node_modules/@reach/router/index.js"), require("fs"), require("/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/concat.js"), require("/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/flatten.js"), require("/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/get.js"), require("/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/isObject.js"), require("/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/merge.js"), require("/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/uniqBy.js"), require("path"), require("react"), require("react-dom/server"));
+		module.exports = factory(require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/@reach/router/index.js"), require("fs"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/concat.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/flatten.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/get.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/isObject.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/merge.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/uniqBy.js"), require("path"), require("react"), require("react-dom/server"));
 	else if(typeof define === 'function' && define.amd)
-		define("lib", ["/Users/gatorpazz/projects/consider-herbs/node_modules/@reach/router/index.js", "fs", "/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/concat.js", "/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/flatten.js", "/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/get.js", "/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/isObject.js", "/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/merge.js", "/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/uniqBy.js", "path", "react", "react-dom/server"], factory);
+		define("lib", ["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/@reach/router/index.js", "fs", "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/concat.js", "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/flatten.js", "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/get.js", "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/isObject.js", "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/merge.js", "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/uniqBy.js", "path", "react", "react-dom/server"], factory);
 	else if(typeof exports === 'object')
-		exports["lib"] = factory(require("/Users/gatorpazz/projects/consider-herbs/node_modules/@reach/router/index.js"), require("fs"), require("/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/concat.js"), require("/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/flatten.js"), require("/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/get.js"), require("/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/isObject.js"), require("/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/merge.js"), require("/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/uniqBy.js"), require("path"), require("react"), require("react-dom/server"));
+		exports["lib"] = factory(require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/@reach/router/index.js"), require("fs"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/concat.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/flatten.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/get.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/isObject.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/merge.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/uniqBy.js"), require("path"), require("react"), require("react-dom/server"));
 	else
-		root["lib"] = factory(root["/Users/gatorpazz/projects/consider-herbs/node_modules/@reach/router/index.js"], root["fs"], root["/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/concat.js"], root["/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/flatten.js"], root["/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/get.js"], root["/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/isObject.js"], root["/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/merge.js"], root["/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/uniqBy.js"], root["path"], root["react"], root["react-dom/server"]);
+		root["lib"] = factory(root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/@reach/router/index.js"], root["fs"], root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/concat.js"], root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/flatten.js"], root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/get.js"], root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/isObject.js"], root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/merge.js"], root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/uniqBy.js"], root["path"], root["react"], root["react-dom/server"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_fs__, __WEBPACK_EXTERNAL_MODULE_lodash_concat__, __WEBPACK_EXTERNAL_MODULE_lodash_flatten__, __WEBPACK_EXTERNAL_MODULE_lodash_get__, __WEBPACK_EXTERNAL_MODULE_lodash_isObject__, __WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_lodash_uniqBy__, __WEBPACK_EXTERNAL_MODULE_path__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -31472,6 +31472,29 @@ module.exports = str => encodeURIComponent(str).replace(/[!'()*]/g, x => `%${x.c
 
 /***/ }),
 
+/***/ "./src/components/Footer/index.js":
+/*!****************************************!*\
+  !*** ./src/components/Footer/index.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+
+
+
+const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "This is the footer."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  to: "/"
+}, "Go Back Home")))));
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
 /***/ "./src/components/Header/index.js":
 /*!****************************************!*\
   !*** ./src/components/Header/index.js ***!
@@ -31492,6 +31515,31 @@ const Header = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.c
 }, "Home")))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./src/components/Layout/index.js":
+/*!****************************************!*\
+  !*** ./src/components/Layout/index.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Header */ "./src/components/Header/index.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Footer */ "./src/components/Footer/index.js");
+
+
+
+
+const Layout = ({
+  children
+}) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), children, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+
+/* harmony default export */ __webpack_exports__["default"] = (Layout);
 
 /***/ }),
 
@@ -31563,16 +31611,17 @@ const NotFoundPage = () => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Header */ "./src/components/Header/index.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout/index.js");
+ // import Header from '../components/Header'
 
  // data
 // markup
 
 const IndexPage = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("title", null, "Home Page"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h1", null, "Congratulations", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, "Edit ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("code", null, "src/pages/index.js"), " to see this page update in real-time.", " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("img", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("title", null, "Home Page"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h1", null, "Congratulations", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", null, "Edit ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("code", null, "src/pages/index.js"), " to see this page update in real-time.", " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("img", {
     alt: "Gatsby G Logo",
     src: "data:image/svg+xml,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2a10 10 0 110 20 10 10 0 010-20zm0 2c-3.73 0-6.86 2.55-7.75 6L14 19.75c3.45-.89 6-4.02 6-7.75h-5.25v1.5h3.45a6.37 6.37 0 01-3.89 4.44L6.06 9.69C7 7.31 9.3 5.63 12 5.63c2.13 0 4 1.04 5.18 2.65l1.23-1.06A7.959 7.959 0 0012 4zm-8 8a8 8 0 008 8c.04 0 .09 0-8-8z' fill='%23639'/%3E%3C/svg%3E"
-  }));
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (IndexPage);
@@ -31580,9 +31629,9 @@ const IndexPage = () => {
 /***/ }),
 
 /***/ "@reach/router":
-/*!***********************************************************************************************!*\
-  !*** external "/Users/gatorpazz/projects/consider-herbs/node_modules/@reach/router/index.js" ***!
-  \***********************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** external "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/@reach/router/index.js" ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -31602,9 +31651,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_fs__;
 /***/ }),
 
 /***/ "lodash/concat":
-/*!*****************************************************************************************!*\
-  !*** external "/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/concat.js" ***!
-  \*****************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** external "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/concat.js" ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -31613,9 +31662,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_concat__;
 /***/ }),
 
 /***/ "lodash/flatten":
-/*!******************************************************************************************!*\
-  !*** external "/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/flatten.js" ***!
-  \******************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** external "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/flatten.js" ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -31624,9 +31673,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_flatten__;
 /***/ }),
 
 /***/ "lodash/get":
-/*!**************************************************************************************!*\
-  !*** external "/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/get.js" ***!
-  \**************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** external "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/get.js" ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -31635,9 +31684,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_get__;
 /***/ }),
 
 /***/ "lodash/isObject":
-/*!*******************************************************************************************!*\
-  !*** external "/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/isObject.js" ***!
-  \*******************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** external "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/isObject.js" ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -31646,9 +31695,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_isObject__;
 /***/ }),
 
 /***/ "lodash/merge":
-/*!****************************************************************************************!*\
-  !*** external "/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/merge.js" ***!
-  \****************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** external "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/merge.js" ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -31657,9 +31706,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_merge__;
 /***/ }),
 
 /***/ "lodash/uniqBy":
-/*!*****************************************************************************************!*\
-  !*** external "/Users/gatorpazz/projects/consider-herbs/node_modules/lodash/uniqBy.js" ***!
-  \*****************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** external "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/uniqBy.js" ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
