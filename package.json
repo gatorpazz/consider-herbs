@@ -16,6 +16,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^1.12.1",
     "dotenv": "^8.2.0",
     "gatsby": "^2.32.3",
     "gatsby-source-contentful": "^4.6.1",
