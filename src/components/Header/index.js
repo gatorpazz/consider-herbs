@@ -25,11 +25,12 @@ const Header = () => {
             </ul>
           </div>
         </div>
-        {menu ? <div className="block sm:hidden">
-          <ul className="">
-            <li><Link to="/" className="px-6 py-6 text-xl font-bold font-bold">Home</Link></li>
-            <li><Link to="/shop/" className="px-6 py-2 text-xl font-bold hover:opacity-70">Shop</Link></li>
-            <li><Link to="/blog/" className="px-6 py-2 text-xl font-bold hover:opacity-70">Blog</Link></li>
+        {menu ? <div className="bg-white w-full fixed block sm:hidden shadow">
+          <ul className="mb-3 ">
+            <li><Link to="/" className="px-6 text-xl font-bold font-bold">Home</Link></li>
+            <li><Link to="/shop/" className="px-6 text-xl font-bold hover:opacity-70">Shop</Link></li>
+            <li><Link to="/blog/" className="px-6 text-xl font-bold hover:opacity-70">Blog</Link></li>
+            <li><Link to="/about/" className="px-6 text-xl font-bold hover:opacity-70">About</Link></li>
           </ul>
         </div> : <div></div> }
 

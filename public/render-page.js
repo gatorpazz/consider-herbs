@@ -111,6 +111,8 @@ const { hot } = __webpack_require__(/*! react-hot-loader/root */ "./node_modules
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": hot(preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
+  "component---src-pages-about-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/about.js */ "./src/pages/about.js"))),
+  "component---src-pages-blog-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/blog.js */ "./src/pages/blog.js"))),
   "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")))
   }
 
@@ -31518,11 +31520,7 @@ const Footer = () => {
     className: "bg-gray-100"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container mx-auto px-6 pt-10 pb-6"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h5", {
-    className: "font-bold mb-2 text-center"
-  }, "Disclaimer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "mx-4 mb-8 text-center text-xs"
-  }, data.contentfulSiteSettings.disclaimer.internal.content)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "flex flex-wrap"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     class: "w-full md:w-1/4 text-center md:text-left"
@@ -31542,7 +31540,9 @@ const Footer = () => {
     className: "mt-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     to: "/shop/"
-  }, "Blog")))))));
+  }, "Blog"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "mt-4 text-left text-xs"
+  }, data.contentfulSiteSettings.disclaimer.internal.content))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -31601,19 +31601,22 @@ const Header = () => {
     className: "px-4 hover:opacity-70",
     href: "#"
   }, "Blog"))))), menu ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "block sm:hidden"
+    className: "bg-white w-full fixed block sm:hidden shadow"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    className: ""
+    className: "mb-3 "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/",
-    className: "px-6 py-6 text-xl font-bold font-bold"
+    className: "px-6 text-xl font-bold font-bold"
   }, "Home")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/shop/",
-    className: "px-6 py-2 text-xl font-bold hover:opacity-70"
+    className: "px-6 text-xl font-bold hover:opacity-70"
   }, "Shop")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/blog/",
-    className: "px-6 py-2 text-xl font-bold hover:opacity-70"
-  }, "Blog")))) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null)));
+    className: "px-6 text-xl font-bold hover:opacity-70"
+  }, "Blog")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/about/",
+    className: "px-6 text-xl font-bold hover:opacity-70"
+  }, "About")))) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null)));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -31739,6 +31742,70 @@ const NotFoundPage = () => {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (NotFoundPage);
+
+/***/ }),
+
+/***/ "./src/pages/about.js":
+/*!****************************!*\
+  !*** ./src/pages/about.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout/index.js");
+
+ // data
+// markup
+
+const Blog = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("title", null, "Blog"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    className: "py-20"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    className: "container mx-auto px-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h1", {
+    className: "font-bold text-5xl mb-2"
+  }, "About us."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h2", {
+    className: "font-semibold text-xl mb-4"
+  }, "Our company is called consider herbs, and we are asking you to do just that: consider our herbs!"))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Blog);
+
+/***/ }),
+
+/***/ "./src/pages/blog.js":
+/*!***************************!*\
+  !*** ./src/pages/blog.js ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout/index.js");
+
+ // data
+// markup
+
+const Blog = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("title", null, "Blog"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    className: "py-20"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    className: "container mx-auto px-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h1", {
+    className: "font-bold text-5xl mb-2"
+  }, "This is the blog."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h2", {
+    className: "font-semibold text-xl mb-4"
+  }, "You won't believe this, but there will be a ton of really great blog posts on here at some point."))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Blog);
 
 /***/ }),
 
