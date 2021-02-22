@@ -1,37 +1,18 @@
 import * as React from "react"
 import Layout from '../components/Layout'
-import { graphql } from "gatsby"
+import Landing from '../components/Landing'
 // data
 
-
 // markup
-const IndexPage = ({data}) => {
+const IndexPage = () => {
   return (
     <main>
+      <title>Home Page</title>
       <Layout>
-        <title>Home Page</title>
-        <h1>
-          {data.contentfulSiteSettings.heroTitle}
-        </h1>
-        <p>
-          {data.contentfulSiteSettings.heroBio}
-        </p>
-        <button>
-          {data.contentfulSiteSettings.callToActionButton}
-        </button>
+        <Landing />
       </Layout>
     </main>
   )
 }
-
-export const query = graphql`
-  {
-    contentfulSiteSettings {
-      heroTitle
-      heroBio
-      callToActionButton
-    }
-  }
-`
 
 export default IndexPage

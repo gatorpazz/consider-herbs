@@ -13,6 +13,8 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_API,
         spaceId: process.env.CONTENTFUL_SPACE,
       },
+      
     },
+    `gatsby-plugin-postcss`
   ],
 };
