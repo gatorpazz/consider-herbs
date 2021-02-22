@@ -20,8 +20,9 @@ const Header = () => {
           <div className="hidden sm:block">
             <ul className="inline-flex">
               <li><Link to="/" className="px-4 font-bold">Home</Link></li>
-              <li><Link to="/shop/" className="px-4 hover:opacity-70" href="#">Shop</Link></li>
-              <li><Link to="/blog/" className="px-4 hover:opacity-70" href="#">Blog</Link></li>
+              <li><Link to="/shop/" className="px-4 hover:opacity-70">Shop</Link></li>
+              <li><Link to="/blog/" className="px-4 hover:opacity-70">Blog</Link></li>
+              <li><Link to="/about/" className="px-4 hover:opacity-70">About</Link></li>
             </ul>
           </div>
         </div>
