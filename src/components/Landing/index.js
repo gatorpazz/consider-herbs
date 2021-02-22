@@ -18,7 +18,7 @@ const Landing = () => {
   return (
     <div>
       <div className="py-20">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-8">
           <h1 className="font-bold text-5xl mb-4">
             {data.contentfulSiteSettings.heroTitle}
           </h1>

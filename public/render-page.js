@@ -113,6 +113,7 @@ exports.ssrComponents = {
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
   "component---src-pages-about-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/about.js */ "./src/pages/about.js"))),
   "component---src-pages-blog-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/blog.js */ "./src/pages/blog.js"))),
+  "component---src-pages-contact-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/contact.js */ "./src/pages/contact.js"))),
   "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")))
   }
 
@@ -31517,17 +31518,17 @@ var _public_page_data_sq_d_933843984_json__WEBPACK_IMPORTED_MODULE_0___namespace
 const Footer = () => {
   const data = _public_page_data_sq_d_933843984_json__WEBPACK_IMPORTED_MODULE_0__.data;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("footer", {
-    className: "bg-gray-100"
+    className: "bg-gray-100 object-bottom"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "container mx-auto px-6 pt-10 pb-6"
+    className: "container mx-auto px-10 pt-10 pb-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "flex flex-wrap"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    class: "w-full md:w-1/4 text-center md:text-left"
+    class: "w-full md:w-1/4 text-left"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h5", {
     className: "mb-4 font-bold"
   }, "Links"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
-    className: "mb-4"
+    className: "mb-4 font-semibold"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     className: "mt-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
@@ -31539,10 +31540,20 @@ const Footer = () => {
   }, "Shop")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     className: "mt-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/shop/"
-  }, "Blog"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    to: "/blog/"
+  }, "Blog")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    className: "mt-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "/about/"
+  }, "About")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    className: "mt-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "/contact/"
+  }, "Contact"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     className: "mt-4 text-left text-xs"
-  }, data.contentfulSiteSettings.disclaimer.internal.content))));
+  }, data.contentfulSiteSettings.disclaimer.internal.content)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    className: "mt-4 text-left"
+  }, "Consider Herbs \xA9 2021"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -31649,7 +31660,7 @@ const Landing = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container mx-auto px-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    className: "font-bold text-5xl mb-2"
+    className: "font-bold text-5xl mb-4"
   }, data.contentfulSiteSettings.heroTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
     className: "font-semibold text-xl mb-4"
   }, data.contentfulSiteSettings.heroBio), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
@@ -31682,7 +31693,9 @@ __webpack_require__.r(__webpack_exports__);
 
 const Layout = ({
   children
-}) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), children, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+}) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  className: ""
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), children, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
 
@@ -31761,19 +31774,19 @@ __webpack_require__.r(__webpack_exports__);
  // data
 // markup
 
-const Blog = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("title", null, "Blog"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+const About = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("title", null, "About Us"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
     className: "py-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
     className: "container mx-auto px-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h1", {
-    className: "font-bold text-5xl mb-2"
+    className: "font-bold text-5xl mb-4"
   }, "About us."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h2", {
     className: "font-semibold text-xl mb-4"
-  }, "Our company is called consider herbs, and we are asking you to do just that: consider our herbs!"))))));
+  }, "Our company is called Consider Herbs, and we are asking you to do just that: consider our herbs! We are confident that by the time you leave this site, you'll be buying herbs a'plenty for a lifetime."))))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Blog);
+/* harmony default export */ __webpack_exports__["default"] = (About);
 
 /***/ }),
 
@@ -31799,13 +31812,47 @@ const Blog = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
     className: "container mx-auto px-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h1", {
-    className: "font-bold text-5xl mb-2"
+    className: "font-bold text-5xl mb-4"
   }, "This is the blog."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h2", {
     className: "font-semibold text-xl mb-4"
   }, "You won't believe this, but there will be a ton of really great blog posts on here at some point."))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Blog);
+
+/***/ }),
+
+/***/ "./src/pages/contact.js":
+/*!******************************!*\
+  !*** ./src/pages/contact.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout/index.js");
+
+ // data
+// markup
+
+const Contact = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("title", null, "Contact Us"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    className: "py-20"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    className: "container mx-auto px-6 text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h1", {
+    className: "font-bold text-5xl mb-4"
+  }, "Contact Us"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h2", {
+    className: "font-semibold text-xl mb-4"
+  }, "Let us know how we can help."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h3", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", {
+    href: "mailto:abc@test.com?subject=Question for Consider Herbs"
+  }, "dee@considerherbs.com"))))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
 
 /***/ }),
 

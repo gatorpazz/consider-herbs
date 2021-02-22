@@ -14,7 +14,7 @@ const Footer = () => {
   }
   `)
   return (
-    <footer className="bg-gray-100">
+    <footer className="bg-gray-100 object-bottom">
       <div className="container mx-auto px-10 pt-10 pb-6">
         <div className="flex flex-wrap">
           {/* <div class="w-full md:w-1/4 text-center md:text-left"> */}
@@ -33,7 +33,10 @@ const Footer = () => {
                 <Link to="/blog/">Blog</Link>
               </li>
               <li className="mt-2">
-                <Link to="/about/">About Us</Link>
+                <Link to="/about/">About</Link>
+              </li>
+              <li className="mt-2">
+                <Link to="/contact/">Contact</Link>
               </li>
             </ul>
           </div>
