@@ -1,13 +1,11 @@
 import * as React from "react"
 import Layout from '../components/Layout'
 import Landing from '../components/Landing'
-// data
 
-// markup
 const IndexPage = () => {
   return (
     <main>
-      <title>Home Page</title>
+      <title>Consider Herbs</title>
       <Layout>
         <Landing />
       </Layout>

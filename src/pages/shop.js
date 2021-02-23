@@ -1,8 +1,7 @@
 import * as React from "react"
 import Layout from '../components/Layout'
-// data
+import Products from '../components/Products'
 
-// markup
 const Shop = () => {
   return (
     <main>
@@ -14,9 +13,10 @@ const Shop = () => {
               <h1 className="font-bold text-5xl mb-4">
                 Shop with us.
               </h1>
-              <h2 className="font-semibold text-xl mb-4">
+              <h2 className="font-semibold text-xl mb-8">
                 Until you drop, all the herbs you can want.
               </h2>
+              <Products />
             </div>
           </div>
         </div>

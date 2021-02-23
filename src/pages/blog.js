@@ -1,8 +1,6 @@
 import * as React from "react"
 import Layout from '../components/Layout'
-// data
 
-// markup
 const Blog = () => {
   return (
     <main>
