@@ -63,6 +63,14 @@ exports[`Header renders correctly 1`] = `
               Blog
             </a>
           </li>
+          <li>
+            <a
+              className="px-4 hover:opacity-70"
+              href="/about/"
+            >
+              About
+            </a>
+          </li>
         </ul>
       </div>
     </div>
