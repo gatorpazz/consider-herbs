@@ -26,7 +26,7 @@ const Landing = () => {
             {data.contentfulSiteSettings.heroBio}
           </h2>
           <Link to="/shop">
-            <button className="text-white font-bold bg-green-400 py-2 px-4 shadow rounded-lg tracking-wider">
+            <button className="text-white font-bold bg-green-400 py-3 px-5 shadow rounded-lg tracking-wider">
               {data.contentfulSiteSettings.callToActionButton}
             </button>
           </Link>

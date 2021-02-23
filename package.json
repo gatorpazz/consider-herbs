@@ -20,6 +20,7 @@
     "dotenv": "^8.2.0",
     "gatsby": "^2.32.3",
     "gatsby-source-contentful": "^4.6.1",
+    "gatsby-source-stripe": "^3.2.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
   },
