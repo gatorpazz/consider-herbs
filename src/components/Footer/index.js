@@ -5,8 +5,8 @@ export const PureFooter = ({ data }) => (
   <footer className="bg-gray-100 object-bottom">
     <div className="container mx-auto px-10 pt-10 pb-6">
       <div className="flex flex-wrap">
-        {/* <div class="w-full md:w-1/4 text-center md:text-left"> */}
-        <div class="w-full md:w-1/4 text-left">
+        {/* <div className="w-full md:w-1/4 text-center md:text-left"> */}
+        <div className="w-full md:w-1/4 text-left">
           <h5 className="mb-4 font-bold">
             Links
           </h5>
