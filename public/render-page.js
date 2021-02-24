@@ -31521,7 +31521,7 @@ const PureFooter = ({
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
   className: "flex flex-wrap"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-  class: "w-full md:w-1/4 text-left"
+  className: "w-full md:w-1/4 text-left"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h5", {
   className: "mb-4 font-bold"
 }, "Links"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {

@@ -4,7 +4,7 @@ import { graphql, useStaticQuery } from "gatsby"
 export const PureProducts = ({ data }) => (
   <div className="">
     {data.allStripePrice.edges.map(({ node }) => (
-      <div className="hover:shadow-2xl mb-12 md:w-96 mx-auto bg-gray-50 rounded-xl shadow-md overflow-hidden md:max-w-2xl" key={node.id}>
+      <div className="hover:shadow-2xl mb-12 md:w-96 mx-auto bg-gray-50 rounded-xl shadow-md overflow-hidden" key={node.id}>
         <div className="md:flex">
           <div className="md:flex-shrink-0">
             <img className="flex-none h-48 w-full object-cover md:w-48" src={node.product.images[0]} alt={node.product.name} />
