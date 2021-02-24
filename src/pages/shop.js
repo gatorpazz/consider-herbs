@@ -9,13 +9,15 @@ const Shop = () => {
         <title>Shop</title>
         <div>
           <div className="py-20">
-            <div className="container mx-auto px-6">
+            <div className="text-center container mx-auto px-6">
               <h1 className="font-bold text-5xl mb-4">
                 Shop with us.
               </h1>
-              <h2 className="font-semibold text-xl mb-8">
-                Until you drop, all the herbs you can want.
-              </h2>
+              <select className="mb-16 border-gray-400" name="herbs" id="herbs">
+                <option value="plh">Price Low to High</option>
+                <option value="phl">Price High to Low</option>
+                <option value="type">Type</option>
+              </select>
               <Products />
             </div>
           </div>
