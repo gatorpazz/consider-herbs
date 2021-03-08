@@ -1,22 +1,22 @@
 import * as React from "react"
 import Layout from '../components/Layout'
-import Products from '../components/Products'
 
-const Shop = () => {
+const About = () => {
   return (
     <main>
       <Layout>
-        <title>Shop</title>
+        <title>About Us</title>
         <div>
           <div className="py-20">
             <div className="container mx-auto px-6">
               <h1 className="font-bold text-5xl mb-4">
-                Shop with us.
+                About us.
               </h1>
-              <h2 className="font-semibold text-xl mb-8">
-                Until you drop, all the herbs you can want.
+              <h2 className="font-semibold text-xl mb-4">
+                Our company is called Consider Herbs, and we are asking you to do just that: consider our herbs!
+                We are confident that by the time you leave this site, you'll be buying herbs a'plenty for a
+                lifetime.
               </h2>
-              <Products />
             </div>
           </div>
         </div>
@@ -25,4 +25,4 @@ const Shop = () => {
   )
 }
 
-export default Shop
+export default About

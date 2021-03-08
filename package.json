@@ -16,17 +16,23 @@
     "test": "jest"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^1.12.1",
     "dotenv": "^8.2.0",
     "gatsby": "^2.32.3",
     "gatsby-source-contentful": "^4.6.1",
+    "gatsby-source-stripe": "^3.2.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
   },
   "devDependencies": {
+    "autoprefixer": "^10.2.4",
     "babel-jest": "^26.6.3",
     "babel-preset-gatsby": "^0.12.1",
+    "gatsby-plugin-postcss": "^3.7.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.6.3",
-    "react-test-renderer": "^16.14.0"
+    "postcss": "^8.2.6",
+    "react-test-renderer": "^16.14.0",
+    "tailwindcss": "^2.0.3"
   }
 }

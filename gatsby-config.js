@@ -14,5 +14,14 @@ module.exports = {
         spaceId: process.env.CONTENTFUL_SPACE,
       },
     },
+    {
+      resolve: "gatsby-source-stripe",
+      options: {
+        objects: ["Price"],
+        secretKey: process.env.STRIPE_SECRET_KEY,
+        downloadFiles: false,
+      },
+    },
+    `gatsby-plugin-postcss`
   ],
-};
+}
