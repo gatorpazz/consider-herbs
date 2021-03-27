@@ -1,7 +1,19 @@
 import * as React from "react"
 import Layout from '../components/Layout'
+import { useStaticQuery, graphql } from "gatsby"
 
 const Contact = () => {
+  const data = useStaticQuery(graphql`
+    query {
+        contentfulSiteSettings {
+          contactEmail
+          emailSubject
+      }
+    }
+  `);
+
+  const emailLink = "mailto:" + data.contentfulSiteSettings.contactEmail + "?subject=" + data.contentfulSiteSettings.emailSubject;
+  
   return (
     <main>
       <Layout>
@@ -17,8 +29,8 @@ const Contact = () => {
               </h2>
               <div>
                 <h3>
-                  <a href="mailto:abc@test.com?subject=Question for Consider Herbs">
-                    dee@considerherbs.com
+                  <a href={emailLink}>
+                    {data.contentfulSiteSettings.contactEmail}
                   </a>
                 </h3>
               </div>
