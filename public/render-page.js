@@ -1,13 +1,13 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/@reach/router/index.js"), require("fs"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/concat.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/flatten.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/get.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/isObject.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/merge.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/uniqBy.js"), require("path"), require("react"), require("react-dom/server"));
+		module.exports = factory(require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/@reach/router/index.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/debug/src/index.js"), require("fs"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/concat.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/flatten.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/get.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/isObject.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/merge.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/uniqBy.js"), require("path"), require("react"), require("react-dom/server"));
 	else if(typeof define === 'function' && define.amd)
-		define("lib", ["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/@reach/router/index.js", "fs", "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/concat.js", "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/flatten.js", "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/get.js", "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/isObject.js", "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/merge.js", "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/uniqBy.js", "path", "react", "react-dom/server"], factory);
+		define("lib", ["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/@reach/router/index.js", "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/debug/src/index.js", "fs", "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/concat.js", "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/flatten.js", "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/get.js", "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/isObject.js", "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/merge.js", "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/uniqBy.js", "path", "react", "react-dom/server"], factory);
 	else if(typeof exports === 'object')
-		exports["lib"] = factory(require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/@reach/router/index.js"), require("fs"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/concat.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/flatten.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/get.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/isObject.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/merge.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/uniqBy.js"), require("path"), require("react"), require("react-dom/server"));
+		exports["lib"] = factory(require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/@reach/router/index.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/debug/src/index.js"), require("fs"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/concat.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/flatten.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/get.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/isObject.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/merge.js"), require("/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/uniqBy.js"), require("path"), require("react"), require("react-dom/server"));
 	else
-		root["lib"] = factory(root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/@reach/router/index.js"], root["fs"], root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/concat.js"], root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/flatten.js"], root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/get.js"], root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/isObject.js"], root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/merge.js"], root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/uniqBy.js"], root["path"], root["react"], root["react-dom/server"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_fs__, __WEBPACK_EXTERNAL_MODULE_lodash_concat__, __WEBPACK_EXTERNAL_MODULE_lodash_flatten__, __WEBPACK_EXTERNAL_MODULE_lodash_get__, __WEBPACK_EXTERNAL_MODULE_lodash_isObject__, __WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_lodash_uniqBy__, __WEBPACK_EXTERNAL_MODULE_path__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__) {
+		root["lib"] = factory(root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/@reach/router/index.js"], root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/debug/src/index.js"], root["fs"], root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/concat.js"], root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/flatten.js"], root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/get.js"], root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/isObject.js"], root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/merge.js"], root["/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/lodash/uniqBy.js"], root["path"], root["react"], root["react-dom/server"]);
+})(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_debug__, __WEBPACK_EXTERNAL_MODULE_fs__, __WEBPACK_EXTERNAL_MODULE_lodash_concat__, __WEBPACK_EXTERNAL_MODULE_lodash_flatten__, __WEBPACK_EXTERNAL_MODULE_lodash_get__, __WEBPACK_EXTERNAL_MODULE_lodash_isObject__, __WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_lodash_uniqBy__, __WEBPACK_EXTERNAL_MODULE_path__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -111,6 +111,7 @@ const { hot } = __webpack_require__(/*! react-hot-loader/root */ "./node_modules
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": hot(preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
+  "component---src-pages-about-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/about.js */ "./src/pages/about.js"))),
   "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")))
   }
 
@@ -3456,6 +3457,114 @@ var invariant = function(condition, format, a, b, c, d, e, f) {
 };
 
 module.exports = invariant;
+
+
+/***/ }),
+
+/***/ "./node_modules/jsonp/index.js":
+/*!*************************************!*\
+  !*** ./node_modules/jsonp/index.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/**
+ * Module dependencies
+ */
+
+var debug = __webpack_require__(/*! debug */ "debug")('jsonp');
+
+/**
+ * Module exports.
+ */
+
+module.exports = jsonp;
+
+/**
+ * Callback index.
+ */
+
+var count = 0;
+
+/**
+ * Noop function.
+ */
+
+function noop(){}
+
+/**
+ * JSONP handler
+ *
+ * Options:
+ *  - param {String} qs parameter (`callback`)
+ *  - prefix {String} qs parameter (`__jp`)
+ *  - name {String} qs parameter (`prefix` + incr)
+ *  - timeout {Number} how long after a timeout error is emitted (`60000`)
+ *
+ * @param {String} url
+ * @param {Object|Function} optional options / callback
+ * @param {Function} optional callback
+ */
+
+function jsonp(url, opts, fn){
+  if ('function' == typeof opts) {
+    fn = opts;
+    opts = {};
+  }
+  if (!opts) opts = {};
+
+  var prefix = opts.prefix || '__jp';
+
+  // use the callback name that was passed if one was provided.
+  // otherwise generate a unique name by incrementing our counter.
+  var id = opts.name || (prefix + (count++));
+
+  var param = opts.param || 'callback';
+  var timeout = null != opts.timeout ? opts.timeout : 60000;
+  var enc = encodeURIComponent;
+  var target = document.getElementsByTagName('script')[0] || document.head;
+  var script;
+  var timer;
+
+
+  if (timeout) {
+    timer = setTimeout(function(){
+      cleanup();
+      if (fn) fn(new Error('Timeout'));
+    }, timeout);
+  }
+
+  function cleanup(){
+    if (script.parentNode) script.parentNode.removeChild(script);
+    window[id] = noop;
+    if (timer) clearTimeout(timer);
+  }
+
+  function cancel(){
+    if (window[id]) {
+      cleanup();
+    }
+  }
+
+  window[id] = function(data){
+    debug('jsonp got', data);
+    cleanup();
+    if (fn) fn(null, data);
+  };
+
+  // add qs component
+  url += (~url.indexOf('?') ? '&' : '?') + param + '=' + enc(id);
+  url = url.replace('?&', '?');
+
+  debug('jsonp req "%s"', url);
+
+  // create script
+  script = document.createElement('script');
+  script.src = url;
+  target.parentNode.insertBefore(script, target);
+
+  return cancel;
+}
 
 
 /***/ }),
@@ -30159,6 +30268,184 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/react-mailchimp-subscribe/es/SimpleForm.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/react-mailchimp-subscribe/es/SimpleForm.js ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+// a basic form
+var SimpleForm = function SimpleForm(_ref) {
+  var status = _ref.status,
+      message = _ref.message,
+      className = _ref.className,
+      style = _ref.style,
+      onSubmitted = _ref.onSubmitted;
+
+  var input = void 0;
+  var submit = function submit() {
+    return input && input.value.indexOf("@") > -1 && onSubmitted({
+      EMAIL: input.value
+    });
+  };
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+    "div",
+    { className: className, style: style },
+    status === "sending" && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+      "div",
+      { style: { color: "blue" } },
+      "sending..."
+    ),
+    status === "error" && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      style: { color: "red" },
+      dangerouslySetInnerHTML: { __html: message }
+    }),
+    status === "success" && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      style: { color: "green" },
+      dangerouslySetInnerHTML: { __html: message }
+    }),
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      ref: function ref(node) {
+        return input = node;
+      },
+      type: "email",
+      placeholder: "Your email"
+    }),
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+      "button",
+      { onClick: submit },
+      "Submit"
+    )
+  );
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (SimpleForm);
+
+/***/ }),
+
+/***/ "./node_modules/react-mailchimp-subscribe/es/index.js":
+/*!************************************************************!*\
+  !*** ./node_modules/react-mailchimp-subscribe/es/index.js ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var jsonp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! jsonp */ "./node_modules/jsonp/index.js");
+/* harmony import */ var jsonp__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(jsonp__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var to_querystring__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! to-querystring */ "./node_modules/to-querystring/lib/to-querystring.min.js");
+/* harmony import */ var to_querystring__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(to_querystring__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _SimpleForm__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SimpleForm */ "./node_modules/react-mailchimp-subscribe/es/SimpleForm.js");
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+
+
+
+var getAjaxUrl = function getAjaxUrl(url) {
+  return url.replace("/post?", "/post-json?");
+};
+
+var MailchimpSubscribe = function (_React$Component) {
+  _inherits(MailchimpSubscribe, _React$Component);
+
+  function MailchimpSubscribe() {
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, MailchimpSubscribe);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this.state = {
+      status: null,
+      message: null
+    }, _this.subscribe = function (data) {
+      var params = to_querystring__WEBPACK_IMPORTED_MODULE_3___default()(data);
+      var url = getAjaxUrl(_this.props.url) + "&" + params;
+      _this.setState({
+        status: "sending",
+        message: null
+      }, function () {
+        return jsonp__WEBPACK_IMPORTED_MODULE_2___default()(url, {
+          param: "c"
+        }, function (err, data) {
+          if (err) {
+            _this.setState({
+              status: "error",
+              message: err
+            });
+          } else if (data.result !== "success") {
+            _this.setState({
+              status: "error",
+              message: data.msg
+            });
+          } else {
+            _this.setState({
+              status: "success",
+              message: data.msg
+            });
+          }
+        });
+      });
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  MailchimpSubscribe.prototype.render = function render() {
+    return this.props.render({
+      subscribe: this.subscribe,
+      status: this.state.status,
+      message: this.state.message
+    });
+  };
+
+  return MailchimpSubscribe;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+MailchimpSubscribe.propTypes =  true ? {
+  render: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  url: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired
+} : undefined;
+
+MailchimpSubscribe.defaultProps = {
+  render: function render(_ref) {
+    var subscribe = _ref.subscribe,
+        status = _ref.status,
+        message = _ref.message;
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SimpleForm__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      status: status,
+      message: message,
+      onSubmitted: function onSubmitted(formData) {
+        return subscribe(formData);
+      }
+    });
+  }
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (MailchimpSubscribe);
+
+/***/ }),
+
 /***/ "./node_modules/scheduler/cjs/scheduler-tracing.development.js":
 /*!*********************************************************************!*\
   !*** ./node_modules/scheduler/cjs/scheduler-tracing.development.js ***!
@@ -31472,6 +31759,17 @@ module.exports = str => encodeURIComponent(str).replace(/[!'()*]/g, x => `%${x.c
 
 /***/ }),
 
+/***/ "./node_modules/to-querystring/lib/to-querystring.min.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/to-querystring/lib/to-querystring.min.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+!function(e,t){ true?module.exports=t():undefined}("undefined"!=typeof self?self:this,function(){return function(e){function t(r){if(n[r])return n[r].exports;var o=n[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,t),o.l=!0,o.exports}var n={};return t.m=e,t.c=n,t.d=function(e,n,r){t.o(e,n)||Object.defineProperty(e,n,{configurable:!1,enumerable:!0,get:r})},t.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(n,"a",n),n},t.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},t.p="",t(t.s=0)}([function(e,t,n){"use strict";function r(e,t,n,r,o){var f=r?o.arrayPrefix||"":"";if("object"===(void 0===t?"undefined":i(t))){return""+u(t,""+n+(""+e+f+(n&&"]")+"["),o)}return n&&n.length?""+n+e+"]"+f+"="+encodeURIComponent(t):""+e+f+"="+encodeURIComponent(t)}function o(e,t,n){var o=arguments.length>3&&void 0!==arguments[3]?arguments[3]:{};return t.map(function(t){return r(e,t,n,!0,o)}).join("&")}function u(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"",n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{},u=[];return u=Array.isArray(e)?e.map(function(e,o){return r(""+o,e,t,!0,n)}):Object.keys(e).filter(function(t){return void 0!==e[t]}).map(function(u){return e[u]&&Array.isArray(e[u])?o(""+u,e[u],t,n):r(u,e[u],t,!1,n)}),u.join("&").replace(/%20/g,"+")}Object.defineProperty(t,"__esModule",{value:!0});var i="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};t.default=u}])});
+
+/***/ }),
+
 /***/ "./public/page-data/sq/d/3405378849.json":
 /*!***********************************************!*\
   !*** ./public/page-data/sq/d/3405378849.json ***!
@@ -31483,14 +31781,25 @@ module.exports = JSON.parse("{\"data\":{\"contentfulSiteSettings\":{\"disclaimer
 
 /***/ }),
 
-/***/ "./public/page-data/sq/d/3555399737.json":
+/***/ "./public/page-data/sq/d/3736891322.json":
 /*!***********************************************!*\
-  !*** ./public/page-data/sq/d/3555399737.json ***!
+  !*** ./public/page-data/sq/d/3736891322.json ***!
   \***********************************************/
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"data\":{\"contentfulSiteSettings\":{\"id\":\"8ad82eb0-2504-51d6-b2f5-03808afda33d\",\"heroTitle\":\"Get back to your nature.\",\"heroBio\":\"Consider the holistic power of herbs and experience the healthy effects of our earth.\",\"callToActionButton\":\"Explore Today\"}}}");
+module.exports = JSON.parse("{\"data\":{\"contentfulSiteSettings\":{\"id\":\"8ad82eb0-2504-51d6-b2f5-03808afda33d\",\"heroTitle\":\"Get back to your nature.\",\"heroBio\":\"Consider the holistic power of herbs and experience the healthy effects of our earth.\",\"callToActionButton\":\"Explore Today\",\"feature1Headline\":\"Feature 1 Text Here\",\"feature1Text\":\"You won't believe all the things that feature one has in store. Check out this icon above me.\",\"feature2Headline\":\"Feature 2 Text Goes Here\",\"feature2Text\":\"It's really quite unbelievable. You won't believe all the things that feature two has in store. \",\"feature3Headline\":\"Feature 3 Will Be Shown\",\"feature3Text\":\"Can you feel it? That's the power of herbs healing your body. Really, it's true.\",\"heroImage\":{\"file\":{\"url\":\"//images.ctfassets.net/l7aye13px8h4/1vq9ylwI0cK5ArUt0FMfL0/dba43fd73de8413901048c44897fe41d/IMG_0264.jpg\"}},\"feature1Image\":{\"file\":{\"url\":\"//images.ctfassets.net/l7aye13px8h4/4BEnbw0GIPZWYwbkNEAsjN/cb15eaee66260373fd55b278aa8e85ce/IMG_0291.jpg\"}},\"feature2Image\":{\"file\":{\"url\":\"//images.ctfassets.net/l7aye13px8h4/6851HOwp5dLgiVuOzcapz5/7a64695affa6be8fc6bae619444e355d/IMG_8249__1_.jpg\"}},\"feature3Image\":{\"file\":{\"url\":\"//images.ctfassets.net/l7aye13px8h4/63DM5qkSAdP8Lp3wyoZf1C/7fcd9a4466284f68fdf342429a230f93/IMG_0311.jpg\"}}}}}");
+
+/***/ }),
+
+/***/ "./public/page-data/sq/d/3904820363.json":
+/*!***********************************************!*\
+  !*** ./public/page-data/sq/d/3904820363.json ***!
+  \***********************************************/
+/*! exports provided: data, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"data\":{\"contentfulSiteSettings\":{\"aboutText\":{\"internal\":{\"content\":\"Our intentions are to educate, empower and to show you no matter where you are in your life's journey you can and should connect with mother nature and make holistic choices. An investment in yourself. These thoughtful actions will ensure the wellbeing of your mind, body and spirit. You will realize the amazing plant allies’ nature has provided for us. They can be found in your back yard, spice cabinet and local markets. You can incorporate them in your daily modern life in many forms such as herbs, oils, teas, food and tinctures to name a few.\\nWe encourage you to make lifestyle change one step at a time that put you back in control of your life and health. Which is your most valuable gift. While rediscovering with the help of mother nature and living in sync with her you can heal yourself.\"}}}}}");
 
 /***/ }),
 
@@ -31588,7 +31897,11 @@ const Header = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/",
     className: "font-bold text-xl lg:text-4xl"
-  }, "ConsiderHerbs"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "h-10",
+    src: "https://www.considerherbs.com/static/media/logo.d5abe8b0.jpg",
+    alt: "logo"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "block sm:hidden"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: "flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-800 hover:border-teal-50 appearance-none focus:outline-none",
@@ -31648,11 +31961,13 @@ const Header = () => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PureLanding", function() { return PureLanding; });
-/* harmony import */ var _public_page_data_sq_d_3555399737_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../public/page-data/sq/d/3555399737.json */ "./public/page-data/sq/d/3555399737.json");
-var _public_page_data_sq_d_3555399737_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../public/page-data/sq/d/3555399737.json */ "./public/page-data/sq/d/3555399737.json", 1);
+/* harmony import */ var _public_page_data_sq_d_3736891322_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../public/page-data/sq/d/3736891322.json */ "./public/page-data/sq/d/3736891322.json");
+var _public_page_data_sq_d_3736891322_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../public/page-data/sq/d/3736891322.json */ "./public/page-data/sq/d/3736891322.json", 1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var react_mailchimp_subscribe__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-mailchimp-subscribe */ "./node_modules/react-mailchimp-subscribe/es/index.js");
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+
 
 
 
@@ -31661,19 +31976,71 @@ const PureLanding = ({
 }) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
   className: "py-20"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-  className: "container mx-auto px-8"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+  className: "container mx-auto px-8 md"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+  src: data.contentfulSiteSettings.heroImage.file.url,
+  alt: "hero"
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
   className: "font-bold text-5xl mb-4"
 }, data.contentfulSiteSettings.heroTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
   className: "font-semibold text-xl mb-4"
-}, data.contentfulSiteSettings.heroBio), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+}, data.contentfulSiteSettings.heroBio), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["Link"], {
   to: "/shop"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-  className: "text-white font-bold bg-green-400 py-3 px-5 shadow rounded-lg tracking-wider"
-}, data.contentfulSiteSettings.callToActionButton)))));
+  className: "text-white font-bold bg-green-500 py-3 px-5 shadow rounded-lg tracking-wider"
+}, data.contentfulSiteSettings.callToActionButton)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "container mx-auto px-8 lg:flex grid-cols-3"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "lg:w-1/3 mx-4 mb-12 bg-gray-50 rounded-xl shadow-md overflow-hidden"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "md:flex"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "p-8"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+  className: "font-bold text-3xl mb-4"
+}, data.contentfulSiteSettings.feature1Headline), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+  src: data.contentfulSiteSettings.feature1Image.file.url,
+  alt: ""
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  className: "font-semibold text-xl"
+}, data.contentfulSiteSettings.feature1Text)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "lg:w-1/3  mb-12 mx-4 bg-gray-50 rounded-xl shadow-md overflow-hidden"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "md:flex"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "p-8"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+  className: "font-bold text-3xl mb-4"
+}, data.contentfulSiteSettings.feature2Headline), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+  src: data.contentfulSiteSettings.feature2Image.file.url,
+  alt: ""
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  className: "font-semibold text-xl"
+}, data.contentfulSiteSettings.feature2Text)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "lg:w-1/3 mb-12 mx-4 bg-gray-50 rounded-xl shadow-md overflow-hidden"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "md:flex"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "p-8"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+  className: "font-bold text-3xl mb-4"
+}, data.contentfulSiteSettings.feature3Headline), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+  src: data.contentfulSiteSettings.feature3Image.file.url,
+  alt: ""
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  className: "font-semibold text-xl"
+}, data.contentfulSiteSettings.feature3Text))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "container mx-auto"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "mb-12 mx-4 bg-gray-50 rounded-xl shadow-md overflow-hidden  text-center"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "p-8"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_mailchimp_subscribe__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  url: "https://gmail.us1.list-manage.com/subscribe/post?u=a75cd765b04800fc5b0dc1887&amp;id=e034a641d4"
+})))));
 
 const Landing = () => {
-  const data = _public_page_data_sq_d_3555399737_json__WEBPACK_IMPORTED_MODULE_0__.data;
+  const data = _public_page_data_sq_d_3736891322_json__WEBPACK_IMPORTED_MODULE_0__.data;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(PureLanding, {
     data: data
   });
@@ -31767,6 +32134,41 @@ const NotFoundPage = () => {
 
 /***/ }),
 
+/***/ "./src/pages/about.js":
+/*!****************************!*\
+  !*** ./src/pages/about.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _public_page_data_sq_d_3904820363_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/3904820363.json */ "./public/page-data/sq/d/3904820363.json");
+var _public_page_data_sq_d_3904820363_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/page-data/sq/d/3904820363.json */ "./public/page-data/sq/d/3904820363.json", 1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout/index.js");
+
+
+
+
+const About = () => {
+  const data = _public_page_data_sq_d_3904820363_json__WEBPACK_IMPORTED_MODULE_0__.data;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("title", null, "About Us"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", {
+    className: "py-20"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", {
+    className: "container mx-auto px-6 text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("h1", {
+    className: "font-bold text-5xl mb-4"
+  }, "About us."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("h2", {
+    className: "font-semibold text-lg mb-4"
+  }, data.contentfulSiteSettings.aboutText.internal.content))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (About);
+
+/***/ }),
+
 /***/ "./src/pages/index.js":
 /*!****************************!*\
   !*** ./src/pages/index.js ***!
@@ -31800,6 +32202,17 @@ const IndexPage = () => {
 /***/ (function(module, exports) {
 
 module.exports = __WEBPACK_EXTERNAL_MODULE__reach_router__;
+
+/***/ }),
+
+/***/ "debug":
+/*!********************************************************************************************!*\
+  !*** external "/mnt/c/Users/maulgoth/code/consider-herbs/node_modules/debug/src/index.js" ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE_debug__;
 
 /***/ }),
 

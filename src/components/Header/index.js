@@ -7,7 +7,9 @@ const Header = () => {
     <header>
       <nav>
         <div className="container mx-auto px-6 py-2 flex justify-between items-center">
-          <Link to="/" className="font-bold text-xl lg:text-4xl">ConsiderHerbs</Link>
+          <Link to="/" className="font-bold text-xl lg:text-4xl">
+            <img className="h-10" src="https://www.considerherbs.com/static/media/logo.d5abe8b0.jpg" alt="logo" />
+          </Link>
           <div className="block sm:hidden">
             <button className="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-800 hover:border-teal-50 appearance-none focus:outline-none"
               onClick={() => setMenu(menu => !menu)}>
