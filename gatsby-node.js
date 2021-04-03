@@ -1,47 +1,15 @@
-// const path = require(`path`)
-// const { createFilePath } = require(`gatsby-source-filesystem`)
+// WIP, create pages for each Stripe item
 
-// exports.onCreateNode = ({ node, getNode, actions }) => {
-//   const { createNodeField } = actions
-//   if (node.internal.type === `StripePrice`) {
-//     console.log("STRIP PREICE");
-//     const slug = createFilePath({ node, getNode, basePath: `pages` })
-//     createNodeField({
-//       node,
-//       name: `slug`,
-//       value: slug,
-//     })
-//   }
-// }
-
-// exports.createPages = async ({ graphql, actions }) => {
-//   const { createPage } = actions
-//   const result = await graphql(`
-//     query {
-//       allStripePrice {
-//         edges {
-//           node {
-//             fields {
-//               slug
-//             }
-//           }
+// exports.createPages = async function({ actions, graphql }) {
+//   const { data } = await graphql(`
+//   query {
+//     allStripePrice {
+//       edges {
+//         node {
+          
 //         }
 //       }
 //     }
+//   }
 //   `)
-//   result.data.allStripePrice.edges.forEach(({ node }) => {
-//     createPage({
-//       path: node.fields.slug,
-//       component: path.resolve(`./src/templates/product_detail.js`),
-//       context: {
-//         // Data passed to context is available
-//         // in page queries as GraphQL variables.
-//         slug: node.fields.slug,
-//       },
-//     })
-//   })
 // }
-
-exports.createPages = async function({ actions, graphql }) {
-  
-}
