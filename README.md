@@ -7,17 +7,18 @@ This app serves the term project for the University of Florida's CEN3031 Spring 
 ![herbs](https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yMjExNDE4MC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY2MzMwMDc1MH0.kwJLT77dLIvCs0D9qdAAPF_WISIbzHNH9JalMIJO6Q0/img.jpg?width=1245&quality=85&coordinates=0,0,0,0&height=700)
 
 ### Contributors
+[Jeremy DePoyster](https://github.com/maulgoth)
+
 [Michael Pascuzzi](https://github.com/gatorpazz)
 
 [Omar Rahman](https://github.com/IBeRamen)
 
-[Jeremy DePoyster](https://github.com/maulgoth)
 
 ### Technologies Used
 
  - Gatsby
  - React
- - TBD CMS service
+ - Contentful
  - Stripe API
  - use-shopping-cart
  - YouTube API
