@@ -64,7 +64,7 @@ export const PureLanding = ({ data }) => (
 const Landing = () => {
   const data = useStaticQuery(graphql`
     query {
-        contentfulSiteSettings {
+      contentfulSiteSettings {
         id
         heroTitle
         heroBio
@@ -76,24 +76,24 @@ const Landing = () => {
         feature3Headline
         feature3Text
         heroImage {
-        file {
-        url
-      }
+          file {
+            url
+          }
         }
         feature1Image {
-        file {
-        url
-      }
+          file {
+            url
+          }
         }
         feature2Image {
-        file {
-        url
-      }
+          file {
+            url
+          }
         }
         feature3Image {
-        file {
-        url
-      }
+          file {
+            url
+          }
         }
       }
     }

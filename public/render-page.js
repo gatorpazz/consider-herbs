@@ -111,7 +111,6 @@ const { hot } = __webpack_require__(/*! react-hot-loader/root */ "./node_modules
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": hot(preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
-  "component---src-pages-about-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/about.js */ "./src/pages/about.js"))),
   "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")))
   }
 
@@ -31792,17 +31791,6 @@ module.exports = JSON.parse("{\"data\":{\"contentfulSiteSettings\":{\"id\":\"8ad
 
 /***/ }),
 
-/***/ "./public/page-data/sq/d/3904820363.json":
-/*!***********************************************!*\
-  !*** ./public/page-data/sq/d/3904820363.json ***!
-  \***********************************************/
-/*! exports provided: data, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"data\":{\"contentfulSiteSettings\":{\"aboutText\":{\"internal\":{\"content\":\"Our intentions are to educate, empower and to show you no matter where you are in your life's journey you can and should connect with mother nature and make holistic choices. An investment in yourself. These thoughtful actions will ensure the wellbeing of your mind, body and spirit. You will realize the amazing plant allies’ nature has provided for us. They can be found in your back yard, spice cabinet and local markets. You can incorporate them in your daily modern life in many forms such as herbs, oils, teas, food and tinctures to name a few.\\nWe encourage you to make lifestyle change one step at a time that put you back in control of your life and health. Which is your most valuable gift. While rediscovering with the help of mother nature and living in sync with her you can heal yourself.\"}}}}}");
-
-/***/ }),
-
 /***/ "./src/components/Footer/index.js":
 /*!****************************************!*\
   !*** ./src/components/Footer/index.js ***!
@@ -32131,41 +32119,6 @@ const NotFoundPage = () => {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (NotFoundPage);
-
-/***/ }),
-
-/***/ "./src/pages/about.js":
-/*!****************************!*\
-  !*** ./src/pages/about.js ***!
-  \****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _public_page_data_sq_d_3904820363_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/3904820363.json */ "./public/page-data/sq/d/3904820363.json");
-var _public_page_data_sq_d_3904820363_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/page-data/sq/d/3904820363.json */ "./public/page-data/sq/d/3904820363.json", 1);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout/index.js");
-
-
-
-
-const About = () => {
-  const data = _public_page_data_sq_d_3904820363_json__WEBPACK_IMPORTED_MODULE_0__.data;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("title", null, "About Us"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", {
-    className: "py-20"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", {
-    className: "container mx-auto px-6 text-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("h1", {
-    className: "font-bold text-5xl mb-4"
-  }, "About us."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("h2", {
-    className: "font-semibold text-lg mb-4"
-  }, data.contentfulSiteSettings.aboutText.internal.content))))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (About);
 
 /***/ }),
 

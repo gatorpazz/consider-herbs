@@ -10,7 +10,11 @@ exports[`Header renders correctly 1`] = `
         className="font-bold text-xl lg:text-4xl"
         href="/"
       >
-        ConsiderHerbs
+        <img
+          alt="logo"
+          className="h-10"
+          src="https://www.considerherbs.com/static/media/logo.d5abe8b0.jpg"
+        />
       </a>
       <div
         className="block sm:hidden"
