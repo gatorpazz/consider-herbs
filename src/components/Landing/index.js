@@ -5,19 +5,23 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 export const PureLanding = ({ data }) => (
   <div>
     <div className="py-20">
-      <div className="container mx-auto px-8 md">
-        <img src={data.contentfulSiteSettings.heroImage.file.url} alt="hero" />
-        <h1 className="font-bold text-5xl mb-4">
-          {data.contentfulSiteSettings.heroTitle}
-        </h1>
-        <h2 className="font-semibold text-xl mb-4">
-          {data.contentfulSiteSettings.heroBio}
-        </h2>
-        <Link to="/shop">
-          <button className="text-white font-bold bg-green-500 py-3 px-5 shadow rounded-lg tracking-wider">
-            {data.contentfulSiteSettings.callToActionButton}
-          </button>
-        </Link>
+      <div className="container mx-auto px-8 grid xl:grid-cols-7 gap-4">
+        <div className="xl:col-span-3 sm:text-center xl:text-left">
+          <h1 className="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl">
+            {data.contentfulSiteSettings.heroTitle}
+          </h1>
+          <h2 className="font-semibold mt-3 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl ">
+            {data.contentfulSiteSettings.heroBio}
+          </h2>
+          <Link to="/shop">
+            <button className="mt-5 text-white font-bold bg-green-500 py-3 px-5 shadow rounded-lg tracking-wider">
+              {data.contentfulSiteSettings.callToActionButton}
+            </button>
+          </Link>
+        </div>
+        <div className="xl:col-span-4">
+          <img src={data.contentfulSiteSettings.heroImage.file.url} alt="hero" />
+        </div>
       </div>
     </div>
     <div className="container mx-auto px-8 lg:flex grid-cols-3">
@@ -52,9 +56,11 @@ export const PureLanding = ({ data }) => (
     <div className="container mx-auto">
       <div className="mb-12 mx-4 bg-gray-50 rounded-xl shadow-md overflow-hidden  text-center">
         <div className="p-8">
+          {/* NEED TO MAKE THIS CUSTOM FORM: Example at https://github.com/revolunet/react-mailchimp-subscribe/blob/master/demo/src/index.js*/}
           <MailchimpSubscribe
             url={process.env.REACT_APP_MAILCHIMP_URL}
           />
+          {/* END CUSTOM FORM */}
         </div>
       </div>
     </div>

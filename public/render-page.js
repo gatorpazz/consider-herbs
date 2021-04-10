@@ -111,6 +111,7 @@ const { hot } = __webpack_require__(/*! react-hot-loader/root */ "./node_modules
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": hot(preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
+  "component---src-pages-about-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/about.js */ "./src/pages/about.js"))),
   "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")))
   }
 
@@ -31780,6 +31781,17 @@ module.exports = JSON.parse("{\"data\":{\"contentfulSiteSettings\":{\"disclaimer
 
 /***/ }),
 
+/***/ "./public/page-data/sq/d/3499632925.json":
+/*!***********************************************!*\
+  !*** ./public/page-data/sq/d/3499632925.json ***!
+  \***********************************************/
+/*! exports provided: data, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"data\":{\"contentfulSiteSettings\":{\"aboutText\":{\"internal\":{\"content\":\"Our intentions are to educate, empower, and show you no matter where you are in your life's journey you can and should connect with mother nature and make holistic choices. An investment in yourself. These thoughtful actions will ensure the wellbeing of your mind, body and spirit. You will realize the amazing plant allies’ nature has provided for us. They can be found in your back yard, spice cabinet and local markets. You can incorporate them in your daily modern life in many forms such as herbs, oils, teas, food and tinctures to name a few.\\n\"}},\"aboutText2\":{\"internal\":{\"content\":\"We encourage you to make lifestyle change one step at a time that put you back in control of your life and health. Which is your most valuable gift. While rediscovering with the help of mother nature and living in sync with her you can heal yourself.\"}}}}}");
+
+/***/ }),
+
 /***/ "./public/page-data/sq/d/3736891322.json":
 /*!***********************************************!*\
   !*** ./public/page-data/sq/d/3736891322.json ***!
@@ -31787,7 +31799,7 @@ module.exports = JSON.parse("{\"data\":{\"contentfulSiteSettings\":{\"disclaimer
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"data\":{\"contentfulSiteSettings\":{\"id\":\"8ad82eb0-2504-51d6-b2f5-03808afda33d\",\"heroTitle\":\"Get back to your nature.\",\"heroBio\":\"Consider the holistic power of herbs and experience the healthy effects of our earth.\",\"callToActionButton\":\"Explore Today\",\"feature1Headline\":\"Feature 1 Text Here\",\"feature1Text\":\"You won't believe all the things that feature one has in store. Check out this icon above me.\",\"feature2Headline\":\"Feature 2 Text Goes Here\",\"feature2Text\":\"It's really quite unbelievable. You won't believe all the things that feature two has in store. \",\"feature3Headline\":\"Feature 3 Will Be Shown\",\"feature3Text\":\"Can you feel it? That's the power of herbs healing your body. Really, it's true.\",\"heroImage\":{\"file\":{\"url\":\"//images.ctfassets.net/l7aye13px8h4/1vq9ylwI0cK5ArUt0FMfL0/dba43fd73de8413901048c44897fe41d/IMG_0264.jpg\"}},\"feature1Image\":{\"file\":{\"url\":\"//images.ctfassets.net/l7aye13px8h4/4BEnbw0GIPZWYwbkNEAsjN/cb15eaee66260373fd55b278aa8e85ce/IMG_0291.jpg\"}},\"feature2Image\":{\"file\":{\"url\":\"//images.ctfassets.net/l7aye13px8h4/6851HOwp5dLgiVuOzcapz5/7a64695affa6be8fc6bae619444e355d/IMG_8249__1_.jpg\"}},\"feature3Image\":{\"file\":{\"url\":\"//images.ctfassets.net/l7aye13px8h4/63DM5qkSAdP8Lp3wyoZf1C/7fcd9a4466284f68fdf342429a230f93/IMG_0311.jpg\"}}}}}");
+module.exports = JSON.parse("{\"data\":{\"contentfulSiteSettings\":{\"id\":\"8ad82eb0-2504-51d6-b2f5-03808afda33d\",\"heroTitle\":\"Get back to your nature.\",\"heroBio\":\"Reignite that natural innate desire and to return to a more holistic, earth-based approach.\",\"callToActionButton\":\"Explore Today\",\"feature1Headline\":\"Feature 1 Text Here\",\"feature1Text\":\"You won't believe all the things that feature one has in store. Check out this icon above me.\",\"feature2Headline\":\"Feature 2 Text Goes Here\",\"feature2Text\":\"It's really quite unbelievable. You won't believe all the things that feature two has in store. \",\"feature3Headline\":\"Feature 3 Will Be Shown\",\"feature3Text\":\"Can you feel it? That's the power of herbs healing your body. Really, it's true.\",\"heroImage\":{\"file\":{\"url\":\"//images.ctfassets.net/l7aye13px8h4/1vq9ylwI0cK5ArUt0FMfL0/dba43fd73de8413901048c44897fe41d/IMG_0264.jpg\"}},\"feature1Image\":{\"file\":{\"url\":\"//images.ctfassets.net/l7aye13px8h4/4BEnbw0GIPZWYwbkNEAsjN/cb15eaee66260373fd55b278aa8e85ce/IMG_0291.jpg\"}},\"feature2Image\":{\"file\":{\"url\":\"//images.ctfassets.net/l7aye13px8h4/6851HOwp5dLgiVuOzcapz5/7a64695affa6be8fc6bae619444e355d/IMG_8249__1_.jpg\"}},\"feature3Image\":{\"file\":{\"url\":\"//images.ctfassets.net/l7aye13px8h4/63DM5qkSAdP8Lp3wyoZf1C/7fcd9a4466284f68fdf342429a230f93/IMG_0311.jpg\"}}}}}");
 
 /***/ }),
 
@@ -31819,9 +31831,7 @@ const PureFooter = ({
   className: "flex flex-wrap"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
   className: "w-full md:w-1/4 text-left"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h5", {
-  className: "mb-4 font-bold"
-}, "Links"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
   className: "mb-4 font-semibold"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
   className: "mt-2"
@@ -31964,19 +31974,23 @@ const PureLanding = ({
 }) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
   className: "py-20"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-  className: "container mx-auto px-8 md"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-  src: data.contentfulSiteSettings.heroImage.file.url,
-  alt: "hero"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-  className: "font-bold text-5xl mb-4"
+  className: "container mx-auto px-8 grid xl:grid-cols-7 gap-4"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "xl:col-span-3 sm:text-center xl:text-left"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+  className: "text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl"
 }, data.contentfulSiteSettings.heroTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
-  className: "font-semibold text-xl mb-4"
+  className: "font-semibold mt-3 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl "
 }, data.contentfulSiteSettings.heroBio), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__["Link"], {
   to: "/shop"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-  className: "text-white font-bold bg-green-500 py-3 px-5 shadow rounded-lg tracking-wider"
-}, data.contentfulSiteSettings.callToActionButton)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "mt-5 text-white font-bold bg-green-500 py-3 px-5 shadow rounded-lg tracking-wider"
+}, data.contentfulSiteSettings.callToActionButton))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "xl:col-span-4"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+  src: data.contentfulSiteSettings.heroImage.file.url,
+  alt: "hero"
+})))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
   className: "container mx-auto px-8 lg:flex grid-cols-3"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
   className: "lg:w-1/3 mx-4 mb-12 bg-gray-50 rounded-xl shadow-md overflow-hidden"
@@ -32119,6 +32133,45 @@ const NotFoundPage = () => {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (NotFoundPage);
+
+/***/ }),
+
+/***/ "./src/pages/about.js":
+/*!****************************!*\
+  !*** ./src/pages/about.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _public_page_data_sq_d_3499632925_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/3499632925.json */ "./public/page-data/sq/d/3499632925.json");
+var _public_page_data_sq_d_3499632925_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/page-data/sq/d/3499632925.json */ "./public/page-data/sq/d/3499632925.json", 1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout/index.js");
+
+
+
+
+const About = () => {
+  const data = _public_page_data_sq_d_3499632925_json__WEBPACK_IMPORTED_MODULE_0__.data;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("title", null, "About Us"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", {
+    className: "py-20"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", {
+    className: "container mx-auto px-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("h1", {
+    className: "font-bold text-5xl mb-4 text-center"
+  }, "About us."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("image", {
+    link: "https://www.considerherbs.com/static/media/Grid1.d2c7a8d9.jpg"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("h2", {
+    className: "font-semibold text-lg mb-4 text-justify"
+  }, data.contentfulSiteSettings.aboutText.internal.content), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("h2", {
+    className: "font-semibold text-lg mb-4 text-justify"
+  }, data.contentfulSiteSettings.aboutText2.internal.content))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (About);
 
 /***/ }),
 

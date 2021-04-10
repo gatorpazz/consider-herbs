@@ -11,6 +11,11 @@ const About = () => {
               content
             }
           }
+          aboutText2 {
+            internal {
+              content
+            }
+          }
       }
     }
   `);
@@ -20,12 +25,16 @@ const About = () => {
         <title>About Us</title>
         <div>
           <div className="py-20">
-            <div className="container mx-auto px-6 text-center">
-              <h1 className="font-bold text-5xl mb-4">
+            <div className="container mx-auto px-6">
+              <h1 className="font-bold text-5xl mb-4 text-center">
                 About us.
               </h1>
-              <h2 className="font-semibold text-lg mb-4">
+              <image link="https://www.considerherbs.com/static/media/Grid1.d2c7a8d9.jpg" />
+              <h2 className="font-semibold text-lg mb-4 text-justify">
                 {data.contentfulSiteSettings.aboutText.internal.content}
+              </h2>
+              <h2 className="font-semibold text-lg mb-4 text-justify">
+                {data.contentfulSiteSettings.aboutText2.internal.content}
               </h2>
             </div>
           </div>

@@ -7,9 +7,9 @@ export const PureFooter = ({ data }) => (
       <div className="flex flex-wrap">
         {/* <div className="w-full md:w-1/4 text-center md:text-left"> */}
         <div className="w-full md:w-1/4 text-left">
-          <h5 className="mb-4 font-bold">
+          {/* <h5 className="mb-4 font-bold">
             Links
-          </h5>
+          </h5> */}
           <ul className="mb-4 font-semibold">
             <li className="mt-2">
               <Link to="/">Home</Link>
