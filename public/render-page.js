@@ -111,8 +111,8 @@ const { hot } = __webpack_require__(/*! react-hot-loader/root */ "./node_modules
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": hot(preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
-  "component---src-pages-about-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/about.js */ "./src/pages/about.js"))),
-  "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")))
+  "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js"))),
+  "component---src-pages-shop-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/shop.js */ "./src/pages/shop.js")))
   }
 
 
@@ -31770,6 +31770,17 @@ module.exports = str => encodeURIComponent(str).replace(/[!'()*]/g, x => `%${x.c
 
 /***/ }),
 
+/***/ "./public/page-data/sq/d/1601829145.json":
+/*!***********************************************!*\
+  !*** ./public/page-data/sq/d/1601829145.json ***!
+  \***********************************************/
+/*! exports provided: data, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"data\":{\"allStripePrice\":{\"edges\":[{\"node\":{\"productPath\":\"/products/dee-s-elderberry-syrup/\",\"id\":\"price_1ILbKFI6CfECEKwgLDYLG8Hb\",\"active\":true,\"currency\":\"usd\",\"unit_amount\":1365,\"product\":{\"id\":\"prod_IxWMeAq8d4oUFH\",\"name\":\"Dee's Elderberry Syrup\",\"images\":[\"https://files.stripe.com/links/MDB8YWNjdF8xSUlrY3FJNkNmRUNFS3dnfGZsX3Rlc3RfYkhyOGkyajFPSEpKR0Q5UzNSS1FRemU000ItneqYSR\"],\"metadata\":{\"size\":\"8 oz\",\"type\":\"liquid\"},\"description\":\"Immune Support, Contradiction Autoimmune Issues\"}}},{\"node\":{\"productPath\":\"/products/sore-away/\",\"id\":\"price_1IJOfwI6CfECEKwgKBpwaB9P\",\"active\":true,\"currency\":\"usd\",\"unit_amount\":1499,\"product\":{\"id\":\"prod_IvFA4F49x1fejE\",\"name\":\"Sore Away\",\"images\":[\"https://files.stripe.com/links/MDB8YWNjdF8xSUlrY3FJNkNmRUNFS3dnfGZsX3Rlc3RfRXZjVmlTWUVQQmZtM282Q3RVY2pZNEtw00210mSJTh\"],\"metadata\":{\"size\":\"10 ml\",\"type\":\"cream\"},\"description\":\"Muscle and pain relief\"}}},{\"node\":{\"productPath\":\"/products/test-product/\",\"id\":\"price_1IZk8NI6CfECEKwgzT2bb0sz\",\"active\":true,\"currency\":\"usd\",\"unit_amount\":1500,\"product\":{\"id\":\"prod_JC8P2BEeKhmzMW\",\"name\":\"Test Product\",\"images\":[\"https://files.stripe.com/links/MDB8YWNjdF8xSUlrY3FJNkNmRUNFS3dnfGZsX3Rlc3RfaWNwUVhoazB2RlhyMkxTYVJpQTNadHVn00d3h1mzZH\"],\"metadata\":{\"size\":null,\"type\":null},\"description\":\"Test Product\"}}},{\"node\":{\"productPath\":\"/products/muscle-ease-liniment/\",\"id\":\"price_1IJOlWI6CfECEKwgrUbU5MAE\",\"active\":true,\"currency\":\"usd\",\"unit_amount\":1799,\"product\":{\"id\":\"prod_IvFGgwJcjjaXNo\",\"name\":\"Muscle Ease Liniment\",\"images\":[\"https://files.stripe.com/links/MDB8YWNjdF8xSUlrY3FJNkNmRUNFS3dnfGZsX3Rlc3RfTXBnQnc1Y2dGbkdJdTlxaFJ5MmVVcTRs00ciuSSa3q\"],\"metadata\":{\"size\":\"2 oz\",\"type\":\"liquid\"},\"description\":\"Relief for sore, achy muscles and soft tissue.\"}}},{\"node\":{\"productPath\":\"/products/yellow-fire/\",\"id\":\"price_1IJOhpI6CfECEKwggzAymRR4\",\"active\":true,\"currency\":\"usd\",\"unit_amount\":2899,\"product\":{\"id\":\"prod_IvFCfT21sN6MO5\",\"name\":\"Yellow Fire\",\"images\":[\"https://files.stripe.com/links/MDB8YWNjdF8xSUlrY3FJNkNmRUNFS3dnfGZsX3Rlc3RfSWFrYXhsR3ZicTMzcVViMlhUYjVGcnVR008Ebtui4Q\"],\"metadata\":{\"size\":\"2 oz\",\"type\":\"liquid\"},\"description\":\"Inflammation and joint support.\"}}},{\"node\":{\"productPath\":\"/products/dee-s-fire-cider-oxymel/\",\"id\":\"price_1ILbKzI6CfECEKwgS4WaBckv\",\"active\":true,\"currency\":\"usd\",\"unit_amount\":3319,\"product\":{\"id\":\"prod_IxWNVWxDGsFisW\",\"name\":\"Dee's Fire Cider Oxymel\",\"images\":[\"https://files.stripe.com/links/MDB8YWNjdF8xSUlrY3FJNkNmRUNFS3dnfGZsX3Rlc3RfcDVjRkx0eGRuaDc1ZUU2YURWYXg3R0sx00zEdYjtZE\"],\"metadata\":{\"size\":\"8 oz\",\"type\":\"liquid\"},\"description\":\"Sweet - N - Spicy Citrus, Immune Support Wellness Tonic\"}}}]}}}");
+
+/***/ }),
+
 /***/ "./public/page-data/sq/d/3405378849.json":
 /*!***********************************************!*\
   !*** ./public/page-data/sq/d/3405378849.json ***!
@@ -31778,17 +31789,6 @@ module.exports = str => encodeURIComponent(str).replace(/[!'()*]/g, x => `%${x.c
 /***/ (function(module) {
 
 module.exports = JSON.parse("{\"data\":{\"contentfulSiteSettings\":{\"disclaimer\":{\"internal\":{\"content\":\"The information presented herein by Consider Herbs is intended for educational purposes only. These statements have not been evaluated by the FDA and are not intended to diagnose, cure, treat or prevent disease. Individual results may vary, and before using any supplements, it is always advisable to consult with your own healthcare provider.\"}}}}}");
-
-/***/ }),
-
-/***/ "./public/page-data/sq/d/3499632925.json":
-/*!***********************************************!*\
-  !*** ./public/page-data/sq/d/3499632925.json ***!
-  \***********************************************/
-/*! exports provided: data, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"data\":{\"contentfulSiteSettings\":{\"aboutText\":{\"internal\":{\"content\":\"Our intentions are to educate, empower, and show you no matter where you are in your life's journey you can and should connect with mother nature and make holistic choices. An investment in yourself. These thoughtful actions will ensure the wellbeing of your mind, body and spirit. You will realize the amazing plant allies’ nature has provided for us. They can be found in your back yard, spice cabinet and local markets. You can incorporate them in your daily modern life in many forms such as herbs, oils, teas, food and tinctures to name a few.\\n\"}},\"aboutText2\":{\"internal\":{\"content\":\"We encourage you to make lifestyle change one step at a time that put you back in control of your life and health. Which is your most valuable gift. While rediscovering with the help of mother nature and living in sync with her you can heal yourself.\"}}}}}");
 
 /***/ }),
 
@@ -32079,6 +32079,62 @@ const Layout = ({
 
 /***/ }),
 
+/***/ "./src/components/Products/index.js":
+/*!******************************************!*\
+  !*** ./src/components/Products/index.js ***!
+  \******************************************/
+/*! exports provided: PureProducts, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PureProducts", function() { return PureProducts; });
+/* harmony import */ var _public_page_data_sq_d_1601829145_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../public/page-data/sq/d/1601829145.json */ "./public/page-data/sq/d/1601829145.json");
+var _public_page_data_sq_d_1601829145_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../public/page-data/sq/d/1601829145.json */ "./public/page-data/sq/d/1601829145.json", 1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+
+
+
+const PureProducts = ({
+  data
+}) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: ""
+}, data.allStripePrice.edges.map(({
+  node
+}) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+  to: node.productPath
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "hover:shadow-2xl mb-12 md:w-96 mx-auto bg-gray-50 rounded-xl shadow-md overflow-hidden",
+  key: node.id
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "md:flex"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "md:flex-shrink-0"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+  className: "flex-none md:h-48 w-full object-cover md:w-48",
+  src: node.product.images[0],
+  alt: node.product.name
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "p-8"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+  className: "text-gray-900 font-bold tracking-wide text-xl"
+}, node.product.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  className: "mt-2 text-gray-700 font-bold text-xl"
+}, "$", node.unit_amount / 100))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null));
+
+const Products = () => {
+  const data = _public_page_data_sq_d_1601829145_json__WEBPACK_IMPORTED_MODULE_0__.data;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(PureProducts, {
+    data: data
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Products);
+
+/***/ }),
+
 /***/ "./src/pages/404.js":
 /*!**************************!*\
   !*** ./src/pages/404.js ***!
@@ -32136,45 +32192,6 @@ const NotFoundPage = () => {
 
 /***/ }),
 
-/***/ "./src/pages/about.js":
-/*!****************************!*\
-  !*** ./src/pages/about.js ***!
-  \****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _public_page_data_sq_d_3499632925_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/3499632925.json */ "./public/page-data/sq/d/3499632925.json");
-var _public_page_data_sq_d_3499632925_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/page-data/sq/d/3499632925.json */ "./public/page-data/sq/d/3499632925.json", 1);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout/index.js");
-
-
-
-
-const About = () => {
-  const data = _public_page_data_sq_d_3499632925_json__WEBPACK_IMPORTED_MODULE_0__.data;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("title", null, "About Us"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", {
-    className: "py-20"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", {
-    className: "container mx-auto px-6"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("h1", {
-    className: "font-bold text-5xl mb-4 text-center"
-  }, "About us."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("image", {
-    link: "https://www.considerherbs.com/static/media/Grid1.d2c7a8d9.jpg"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("h2", {
-    className: "font-semibold text-lg mb-4 text-justify"
-  }, data.contentfulSiteSettings.aboutText.internal.content), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("h2", {
-    className: "font-semibold text-lg mb-4 text-justify"
-  }, data.contentfulSiteSettings.aboutText2.internal.content))))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (About);
-
-/***/ }),
-
 /***/ "./src/pages/index.js":
 /*!****************************!*\
   !*** ./src/pages/index.js ***!
@@ -32197,6 +32214,47 @@ const IndexPage = () => {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (IndexPage);
+
+/***/ }),
+
+/***/ "./src/pages/shop.js":
+/*!***************************!*\
+  !*** ./src/pages/shop.js ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout/index.js");
+/* harmony import */ var _components_Products__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Products */ "./src/components/Products/index.js");
+
+
+
+
+const Shop = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("title", null, "Shop"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    className: "py-20"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+    className: "text-center container mx-auto px-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h1", {
+    className: "font-bold text-5xl mb-4"
+  }, "Shop with us."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("select", {
+    className: "mb-16",
+    name: "herbs",
+    id: "herbs"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("option", {
+    value: "plh"
+  }, "Price Low to High"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("option", {
+    value: "phl"
+  }, "Price High to Low"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("option", {
+    value: "type"
+  }, "Type")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_components_Products__WEBPACK_IMPORTED_MODULE_2__["default"], null))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Shop);
 
 /***/ }),
 

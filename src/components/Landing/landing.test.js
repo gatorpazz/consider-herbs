@@ -38,9 +38,11 @@ describe("Landing", () => {
         }
       }
     }
+
+    const url = "TEST123";
     
     const tree = renderer
-      .create(<Landing data={data} />)
+      .create(<Landing data={data} url={url} />)
       .toJSON()
     expect(tree).toMatchSnapshot()
   })

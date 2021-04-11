@@ -1,8 +1,9 @@
 import React from 'react';
 import MailchimpSubscribe from 'react-mailchimp-subscribe';
+import MailingListForm from '../MailingListForm'
 import { useStaticQuery, graphql, Link } from "gatsby"
 
-export const PureLanding = ({ data }) => (
+export const PureLanding = ({ data, url }) => (
   <div>
     <div className="py-20">
       <div className="container mx-auto px-8 grid xl:grid-cols-7 gap-4">
@@ -10,7 +11,7 @@ export const PureLanding = ({ data }) => (
           <h1 className="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl">
             {data.contentfulSiteSettings.heroTitle}
           </h1>
-          <h2 className="font-semibold mt-3 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl ">
+          <h2 className="font-semibold mt-3 text-base text-gray-600 sm:mt-5 sm:text-lg md:mt-5 md:text-xl ">
             {data.contentfulSiteSettings.heroBio}
           </h2>
           <Link to="/shop">
@@ -56,11 +57,16 @@ export const PureLanding = ({ data }) => (
     <div className="container mx-auto">
       <div className="mb-12 mx-4 bg-gray-50 rounded-xl shadow-md overflow-hidden  text-center">
         <div className="p-8">
-          {/* NEED TO MAKE THIS CUSTOM FORM: Example at https://github.com/revolunet/react-mailchimp-subscribe/blob/master/demo/src/index.js*/}
           <MailchimpSubscribe
-            url={process.env.REACT_APP_MAILCHIMP_URL}
+            url={url}
+            render={({ subscribe, status, message }) => (
+              <MailingListForm
+                status={status}
+                message={message}
+                onValidated={formData => subscribe(formData)}
+              />
+            )}
           />
-          {/* END CUSTOM FORM */}
         </div>
       </div>
     </div>
@@ -68,6 +74,8 @@ export const PureLanding = ({ data }) => (
 )
 
 const Landing = () => {
+  const url = process.env.REACT_APP_MAILCHIMP_URL;
+
   const data = useStaticQuery(graphql`
     query {
       contentfulSiteSettings {
@@ -104,7 +112,7 @@ const Landing = () => {
       }
     }
   `)
-  return <PureLanding data={data} />
+  return <PureLanding data={data} url={url} />
 }
 
 export default Landing
