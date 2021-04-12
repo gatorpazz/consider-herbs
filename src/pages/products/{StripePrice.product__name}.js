@@ -1,12 +1,24 @@
 import * as React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql, Link, navigate } from "gatsby"
+
+import { useShoppingCart } from 'use-shopping-cart'
 
 const ProductDetail = ({ data }) => {
-  const node = data.stripePrice;
+  const product = {
+    name: data.stripePrice.product.name,
+    description: data.stripePrice.product.description,
+    id: data.stripePrice.id,
+    price: data.stripePrice.unit_amount,
+    currency: 'USD',
+    image: data.stripePrice.product.images[0],
+    size: data.stripePrice.product.metadata.size
+  }
+
+  const { addItem } = useShoppingCart()
 
   return (
     <div>
-      <title>{node.product.name}</title>
+      <title>{product.name}</title>
       <main className="my-8">
         <div className="container mx-auto px-6">
           <div className="flex justify-between items-center pb-3">
@@ -21,20 +33,28 @@ const ProductDetail = ({ data }) => {
           </div>
           <div className="md:flex md:items-center">
             <div className="w-full md:w-1/2">
-              <img className="h-full w-full rounded-md object-cover max-w-lg mx-auto" src={node.product.images[0]} alt={node.product.name} />
+              <img className="h-full w-full rounded-md object-cover max-w-lg mx-auto" src={product.image} alt={product.name} />
             </div>
             <div className="w-full max-w-lg mx-auto mt-5 md:ml-8 md:mt-0 md:w-1/2">
-              <h3 className="text-gray-700 uppercase font-bold text-lg">{node.product.name}</h3>
-              <span className="text-gray-500 mt-3">${((node.unit_amount) / 100)}</span>
+              <h3 className="text-gray-700 uppercase font-bold text-lg">{product.name}</h3>
+              <span className="text-gray-500 mt-3">${((product.price) / 100)}</span>
               <hr className="my-3" />
               <div className="mt-2">
-                <label className="text-gray-700 text-sm" for="count">{node.product.description}</label>
+                <label className="text-gray-700 text-sm" for="count">{product.description}</label>
                 <div className="flex items-center mt-1">
-                  <span className="text-gray-700 text-lg">Size: {node.product.metadata.size}</span>
+                  <span className="text-gray-700 text-lg">Size: {product.size}</span>
                 </div>
               </div>
               <div className="flex items-center mt-6">
-                <button className="px-8 py-2 bg-green-600 text-white text-sm font-medium rounded hover:bg-green-500 focus:outline-none focus:bg-green-500">Add to Cart</button>
+                <button 
+                  className="px-8 py-2 bg-green-600 text-white text-sm font-medium rounded hover:bg-green-500 focus:outline-none focus:bg-green-500"
+                  onClick={() => {
+                    addItem(product); 
+                    navigate("/cart");
+                  }}
+                >
+                  Add to Cart
+                </button>
               </div>
             </div>
           </div>
@@ -48,16 +68,17 @@ const ProductDetail = ({ data }) => {
 export const data = graphql`
   query($id: String) {
     stripePrice(id: {eq: $id}) {
-    unit_amount
-    product {
-      name
       id
-      description
-      images
-      metadata {
-        size
-        type
-        }
+      unit_amount
+      product {
+        name
+        id
+        description
+        images
+        metadata {
+          size
+          type
+          }
       }
     }
   }

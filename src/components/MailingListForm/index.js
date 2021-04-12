@@ -13,7 +13,7 @@ const MailingListForm = ({ status, message, onValidated }) => {
     // <div className="items-center justify-between py-10 px-5 bg-white shadow-2xl rounded-lg mx-auto text-center">
     <div className="px-2 -mt-6">
       <div className="text-center">
-        <h1 className="text-2xl md:text-3xl text-grey-800 font-medium leading-loose my-3 w-full">Join our Mailing List!</h1>
+        <h1 className="text-2xl md:text-3xl text-grey-800 font-bold leading-loose my-3 w-full">Join our Mailing List!</h1>
         <div className="w-full text-center">
           {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
           {status === "error" && (

@@ -20,9 +20,6 @@ export const PureProducts = ({ data }) => (
         </Link>
       ))}
     </div>
-    <div>
-
-    </div>
   </div>
 )
 

@@ -139,7 +139,7 @@ exports[`Landing renders correctly 1`] = `
             className="text-center"
           >
             <h1
-              className="text-2xl md:text-3xl text-grey-800 font-medium leading-loose my-3 w-full"
+              className="text-2xl md:text-3xl text-grey-800 font-bold leading-loose my-3 w-full"
             >
               Join our Mailing List!
             </h1>
