@@ -29,7 +29,7 @@ export const PureLanding = ({ data, url }) => (
       <div className="lg:w-1/3 mx-4 mb-12 bg-gray-50 rounded-xl shadow-md overflow-hidden">
         <div className="md:flex">
           <div className="p-8">
-            <h3 className="font-bold text-3xl mb-4">{data.contentfulSiteSettings.feature1Headline}</h3>
+            <h3 className="font-bold text-center text-3xl mb-4">{data.contentfulSiteSettings.feature1Headline}</h3>
             <img src={data.contentfulSiteSettings.feature1Image.file.url} alt="" />
             <p className="font-semibold text-xl">{data.contentfulSiteSettings.feature1Text}</p>
           </div>
@@ -38,7 +38,7 @@ export const PureLanding = ({ data, url }) => (
       <div className="lg:w-1/3  mb-12 mx-4 bg-gray-50 rounded-xl shadow-md overflow-hidden">
         <div className="md:flex">
           <div className="p-8">
-            <h3 className="font-bold text-3xl mb-4">{data.contentfulSiteSettings.feature2Headline}</h3>
+            <h3 className="font-bold text-center text-3xl mb-4">{data.contentfulSiteSettings.feature2Headline}</h3>
             <img src={data.contentfulSiteSettings.feature2Image.file.url} alt="" />
             <p className="font-semibold text-xl">{data.contentfulSiteSettings.feature2Text}</p>
           </div>
@@ -47,7 +47,7 @@ export const PureLanding = ({ data, url }) => (
       <div className="lg:w-1/3 mb-12 mx-4 bg-gray-50 rounded-xl shadow-md overflow-hidden">
         <div className="md:flex">
           <div className="p-8">
-            <h3 className="font-bold text-3xl mb-4">{data.contentfulSiteSettings.feature3Headline}</h3>
+            <h3 className="font-bold text-center text-3xl mb-4">{data.contentfulSiteSettings.feature3Headline}</h3>
             <img src={data.contentfulSiteSettings.feature3Image.file.url} alt="" />
             <p className="font-semibold text-xl">{data.contentfulSiteSettings.feature3Text}</p>
           </div>
