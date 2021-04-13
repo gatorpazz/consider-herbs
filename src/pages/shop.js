@@ -13,11 +13,6 @@ const Shop = () => {
               <h1 className="font-bold text-5xl mb-4">
                 Shop with us.
               </h1>
-              <select className="mb-16" name="herbs" id="herbs">
-                <option value="plh">Price Low to High</option>
-                <option value="phl">Price High to Low</option>
-                <option value="type">Type</option>
-              </select>
               <Products />
             </div>
           </div>

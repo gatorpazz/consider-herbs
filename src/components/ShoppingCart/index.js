@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 const ShoppingCart = () => {
   const { removeItem, incrementItem, decrementItem, cartDetails,
-    totalPrice } = useShoppingCart()
+    redirectToCheckout, totalPrice } = useShoppingCart()
 
   return (
     <div className="px-2 container">
@@ -56,15 +56,9 @@ const ShoppingCart = () => {
             </h1>
           </div>
         </div>
-        {/* <div>
-          <button className="px-8 mt-5 py-2 bg-red-400 text-white text-sm font-medium rounded hover:bg-red-200 focus:outline-none focus:bg-red-200"
-            onClick={clearCart}>
-            Empty Cart
-          </button>
-        </div> */}
         <div>
           <button className="px-8 mt-5 py-2 bg-green-600 text-white text-sm font-medium rounded hover:bg-green-500 focus:outline-none focus:bg-green-500"
-            onClick={() => console.log("CHECKOUT")}>
+            onClick={() => redirectToCheckout()}>
             Checkout
           </button>
         </div>

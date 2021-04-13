@@ -12,11 +12,12 @@ export const wrapRootElement = ({ element }) => {
     <CartProvider
     mode="client-only"
     stripe={stripePromise}
-    successUrl="stripe.com"
-    cancelUrl="twitter.com/stripe"
+    successUrl="http://localhost:8000"
+    cancelUrl="http://localhost:8000/cart/"
     currency="USD"
     allowedCountries={['US']}
     billingAddressCollection={true}
+    shipping_rates={["shr_1IfnFEI6CfECEKwgdvnNULcV"]}
   >
     {element}
   </CartProvider>
