@@ -10,11 +10,10 @@ const Blog = () => {
           <div className="py-20">
             <div className="container mx-auto px-6">
               <h1 className="font-bold text-5xl mb-4">
-                This is the blog.
+                Things to share.
               </h1>
               <h2 className="font-semibold text-xl mb-4">
-                You won't believe this, but there will be a ton of really
-                great blog posts on here at some point.
+                Replace w Blog Posts
               </h2>
             </div>
           </div>

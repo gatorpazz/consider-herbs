@@ -40,7 +40,7 @@ const ProductDetail = ({ data }) => {
               <span className="text-gray-500 mt-3">${((product.price) / 100)}</span>
               <hr className="my-3" />
               <div className="mt-2">
-                <label className="text-gray-700 text-sm" for="count">{product.description}</label>
+                <label className="text-gray-700 text-sm">{product.description}</label>
                 <div className="flex items-center mt-1">
                   <span className="text-gray-700 text-lg">Size: {product.size}</span>
                 </div>

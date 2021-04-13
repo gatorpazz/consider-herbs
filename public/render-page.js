@@ -112,8 +112,7 @@ exports.ssrComponents = {
   "component---cache-dev-404-page-js": hot(preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
   "component---src-pages-cart-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/cart.js */ "./src/pages/cart.js"))),
-  "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js"))),
-  "component---src-pages-products-stripe-price-product-name-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/products/{StripePrice.product__name}.js */ "./src/pages/products/{StripePrice.product__name}.js")))
+  "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")))
   }
 
 
@@ -32757,7 +32756,7 @@ const Header = () => {
     className: "px-6 text-xl font-bold hover:opacity-70"
   }, "About")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/cart/",
-    className: "px-4 hover:opacity-70"
+    className: "px-6 text-xl font-bold hover:opacity-70"
   }, "Your Cart")))) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null)));
 };
 
@@ -33001,7 +33000,6 @@ __webpack_require__.r(__webpack_exports__);
 
 const ShoppingCart = () => {
   const {
-    addItem,
     removeItem,
     incrementItem,
     decrementItem,
@@ -33009,40 +33007,20 @@ const ShoppingCart = () => {
     cartDetails,
     cartCount,
     totalPrice
-  } = Object(use_shopping_cart__WEBPACK_IMPORTED_MODULE_1__["useShoppingCart"])(); // const products = [
-  //   {
-  //     name: 'Bananas',
-  //     description: 'Yummy yellow fruit',
-  //     id: 'id_banana001',
-  //     price: 439,
-  //     currency: 'USD',
-  //     image: 'https://my-image.com/banana.jpg'
-  //   },
-  //   {
-  //     name: 'Green Peppers',
-  //     description: 'Good n Crunchy',
-  //     id: 'id_pepper001',
-  //     price: 300,
-  //     currency: 'USD',
-  //     image: 'https://my-image.com/pepper.jpg'
-  //   }
-  // ]
-
+  } = Object(use_shopping_cart__WEBPACK_IMPORTED_MODULE_1__["useShoppingCart"])();
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "px-2 container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "text-center "
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "font-semibold mb-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Item Count: ", cartCount), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Cart Total: $", totalPrice / 100)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, Object.keys(cartDetails).map(key => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "hover:shadow-2xl mb-12 md:w-96 mx-auto bg-gray-50 rounded-xl shadow-md overflow-hidden",
+    className: "text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, Object.keys(cartDetails).map(key => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mb-12 md:w-128 mx-auto bg-gray-50 rounded-xl shadow-md overflow-hidden",
     key: cartDetails[key].id
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "md:flex"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "md:flex-shrink-0"
+    className: "hidden md:flex md:flex-shrink-0"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "flex-none md:h-48 w-full object-cover md:w-48",
+    className: "flex-none w-full object-cover md:w-48",
     src: cartDetails[key].image,
     alt: cartDetails[key].name
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -33051,25 +33029,56 @@ const ShoppingCart = () => {
     className: "text-gray-900 font-bold tracking-wide text-xl"
   }, cartDetails[key].name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "mt-2 text-gray-700 font-bold text-md"
-  }, "$", cartDetails[key].price / 100), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "$", cartDetails[key].price / 100), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mt-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    onClick: () => decrementItem(cartDetails[key].id),
+    className: "text-gray-500 focus:outline-none focus:text-gray-600"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+    className: "h-5 w-5",
+    fill: "none",
+    viewBox: "0 0 24 24",
+    stroke: "currentColor"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    d: "M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "text-gray-700 text-lg mx-2"
+  }, cartDetails[key].quantity), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    onClick: () => incrementItem(cartDetails[key].id),
+    className: "text-gray-500 focus:outline-none focus:text-gray-600"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+    className: "h-5 w-5",
+    fill: "none",
+    viewBox: "0 0 24 24",
+    stroke: "currentColor"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    d: "M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "mt-2 text-gray-700 font-bold text-md"
   }, "Item Total: $", cartDetails[key].value / 100), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "px-8 mt-5 py-2 bg-yellow-600 text-white text-sm font-medium rounded hover:bg-yellow-500 focus:outline-none focus:bg-yellow-500",
-    onClick: () => incrementItem(cartDetails[key].id)
-  }, "Increase"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "px-8 mt-5 py-2 bg-yellow-300 text-white text-sm font-medium rounded hover:bg-yellow-200 focus:outline-none focus:bg-yellow-200",
-    onClick: () => decrementItem(cartDetails[key].id)
-  }, "Decrease"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "px-8 mt-5 py-2 bg-yellow-300 text-white text-sm font-medium rounded hover:bg-yellow-200 focus:outline-none focus:bg-yellow-200",
+    className: "px-8 mt-5 py-2 bg-green-400 text-white text-sm font-medium rounded hover:bg-green-300 focus:outline-none focus:bg-green-300",
     onClick: () => removeItem(cartDetails[key].id)
-  }, "Remove")))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "px-8 mt-5 py-2 bg-blue-600 text-white text-sm font-medium rounded hover:bg-blue-500 focus:outline-none focus:bg-blue-500",
-    onClick: clearCart
-  }, "Empty Cart")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "px-8 mt-5 py-2 bg-purple-600 text-white text-sm font-medium rounded hover:bg-purple-500 focus:outline-none focus:bg-purple-500",
+  }, "Remove"))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: " font-semibold mb-5 bg-gray-50 text-lg divide-y divide-gray-300"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "py-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "font-bold"
+  }, "Products: $", (totalPrice / 100).toFixed(2)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "text-gray-500"
+  }, "+ Shipping: $10")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "py-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "font-bold"
+  }, "Cart Total: $", (totalPrice / 100 + 10).toFixed(2)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "px-8 mt-5 py-2 bg-green-600 text-white text-sm font-medium rounded hover:bg-green-500 focus:outline-none focus:bg-green-500",
+    onClick: () => console.log("CHECKOUT")
+  }, "Checkout")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "/shop/"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "px-8 my-5 py-2 bg-yellow-300 text-white text-sm font-medium rounded hover:bg-yellow-500 focus:outline-none focus:bg-yellow-500",
     onClick: () => console.log(cartDetails)
-  }, "Log Cart")))) // </div>
-  ;
+  }, "Back to Shop"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (ShoppingCart);
@@ -33186,99 +33195,6 @@ const IndexPage = () => {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (IndexPage);
-
-/***/ }),
-
-/***/ "./src/pages/products/{StripePrice.product__name}.js":
-/*!***********************************************************!*\
-  !*** ./src/pages/products/{StripePrice.product__name}.js ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var use_shopping_cart__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! use-shopping-cart */ "./node_modules/use-shopping-cart/dist/index.es.js");
-
-
-
-
-const ProductDetail = ({
-  data
-}) => {
-  const product = {
-    name: data.stripePrice.product.name,
-    description: data.stripePrice.product.description,
-    id: data.stripePrice.id,
-    price: data.stripePrice.unit_amount,
-    currency: 'USD',
-    image: data.stripePrice.product.images[0],
-    size: data.stripePrice.product.metadata.size
-  };
-  const {
-    addItem
-  } = Object(use_shopping_cart__WEBPACK_IMPORTED_MODULE_2__["useShoppingCart"])();
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("title", null, product.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("main", {
-    className: "my-8"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "container mx-auto px-6"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "flex justify-between items-center pb-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", {
-    className: "text-2xl font-bold"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/shop"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "modal-close cursor-pointer z-50"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", {
-    className: "fill-current text-black",
-    xmlns: "http://www.w3.org/2000/svg",
-    width: "18",
-    height: "18",
-    viewBox: "0 0 18 18"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", {
-    d: "M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z"
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "md:flex md:items-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "w-full md:w-1/2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("img", {
-    className: "h-full w-full rounded-md object-cover max-w-lg mx-auto",
-    src: product.image,
-    alt: product.name
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "w-full max-w-lg mx-auto mt-5 md:ml-8 md:mt-0 md:w-1/2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h3", {
-    className: "text-gray-700 uppercase font-bold text-lg"
-  }, product.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "text-gray-500 mt-3"
-  }, "$", product.price / 100), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("hr", {
-    className: "my-3"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "mt-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("label", {
-    className: "text-gray-700 text-sm",
-    for: "count"
-  }, product.description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "flex items-center mt-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", {
-    className: "text-gray-700 text-lg"
-  }, "Size: ", product.size))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    className: "flex items-center mt-6"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("button", {
-    className: "px-8 py-2 bg-green-600 text-white text-sm font-medium rounded hover:bg-green-500 focus:outline-none focus:bg-green-500",
-    onClick: () => {
-      addItem(product);
-      Object(gatsby__WEBPACK_IMPORTED_MODULE_1__["navigate"])("/cart");
-    }
-  }, "Add to Cart")))))));
-};
-
-const data = "560523452";
-/* harmony default export */ __webpack_exports__["default"] = (ProductDetail);
 
 /***/ }),
 

@@ -35,7 +35,7 @@ const Header = () => {
             <li><Link to="/shop/" className="px-6 text-xl font-bold hover:opacity-70">Shop</Link></li>
             <li><Link to="/blog/" className="px-6 text-xl font-bold hover:opacity-70">Blog</Link></li>
             <li><Link to="/about/" className="px-6 text-xl font-bold hover:opacity-70">About</Link></li>
-            <li><Link to="/cart/" className="px-4 hover:opacity-70">Your Cart</Link></li>
+            <li><Link to="/cart/" className="px-6 text-xl font-bold hover:opacity-70">Your Cart</Link></li>
           </ul>
         </div> : <div></div>}
 
