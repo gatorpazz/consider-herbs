@@ -33274,10 +33274,7 @@ const ProductDetail = ({
       addItem(product);
       Object(gatsby__WEBPACK_IMPORTED_MODULE_1__["navigate"])("/cart");
     }
-  }, "Add to Cart"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("button", {
-    className: "px-8 py-2 bg-green-600 text-white text-sm font-medium rounded hover:bg-green-500 focus:outline-none focus:bg-green-500",
-    onClick: () => console.log(product)
-  }, "Print")))))));
+  }, "Add to Cart")))))));
 };
 
 const data = "560523452";
