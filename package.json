@@ -1,6 +1,9 @@
 {
   "name": "consider-herbs",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.18.3"
+  },
   "private": true,
   "description": "consider-herbs",
   "author": "Michael Pascuzzi",
