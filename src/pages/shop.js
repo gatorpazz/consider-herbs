@@ -13,7 +13,7 @@ const Shop = () => {
               <h1 className="font-bold text-5xl mb-4">
                 Shop with us.
               </h1>
-              <Products />
+              <Products  />
             </div>
           </div>
         </div>
