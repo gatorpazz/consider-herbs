@@ -2,6 +2,7 @@ version: '2.1'
 orbs:
   jest: blimmer/jest@0.2.1
   welcome: circleci/welcome-orb@0.4.1
+  heroku: circleci/heroku@0.0.10
 workflows:
   test:
     jobs:
@@ -9,3 +10,6 @@ workflows:
   welcome:
     jobs:
       - welcome/run
+  heroku_deploy:
+    jobs:
+      - heroku/deploy-via-git

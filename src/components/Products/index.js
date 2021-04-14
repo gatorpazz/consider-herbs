@@ -2,15 +2,14 @@ import React from "react"
 import { graphql, useStaticQuery, Link } from "gatsby"
 
 export const PureProducts = ({ data }) => (
-  <div>
-    <div className="">
-      {data.allStripePrice.edges.map(({ node }) => (
-        (node.id === data.contentfulSiteSettings.shippingApiId) ? 
+  <div className="mt-10">
+    {data.allStripePrice.edges.map(({ node }) => (
+      (node.id === data.contentfulSiteSettings.shippingApiId) ?
         // HIDE SHIPPING FROM SHOP
         <div></div>
         :
         // OTHER NON SHIPPING PRODUCTS
-        <Link to={node.productPath}  key={node.id}>
+        <Link to={node.productPath} key={node.id}>
           <div className="hover:shadow-2xl mb-12 md:w-96 mx-auto bg-gray-50 rounded-xl shadow-md overflow-hidden">
             <div className="md:flex">
               <div className="md:flex-shrink-0">
@@ -23,8 +22,7 @@ export const PureProducts = ({ data }) => (
             </div>
           </div>
         </Link>
-      ))}
-    </div>
+    ))}
   </div>
 )
 

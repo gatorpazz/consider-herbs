@@ -8,7 +8,7 @@ export const PureShoppingCart = ({ data }) => {
 
   const removeItemFromCart = (id) => {
     removeItem(id);
-    if (cartCount == 2) {
+    if (cartCount === 2) {
       removeItem(data.contentfulSiteSettings.shippingApiId);
       console.log("HAHA");
     }
@@ -16,7 +16,7 @@ export const PureShoppingCart = ({ data }) => {
 
   const decreaseItemCart = (id) => {
     decrementItem(id);
-    if (cartCount == 2) {
+    if (cartCount === 2) {
       removeItem(data.contentfulSiteSettings.shippingApiId);
       console.log("HAHA");
     }
