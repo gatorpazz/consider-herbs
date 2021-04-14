@@ -54,7 +54,7 @@ exports[`Landing renders correctly 1`] = `
           className="p-8"
         >
           <h3
-            className="font-bold text-3xl mb-4"
+            className="font-bold text-center text-3xl mb-4"
           >
             Feature 1 Text Here
           </h3>
@@ -80,7 +80,7 @@ exports[`Landing renders correctly 1`] = `
           className="p-8"
         >
           <h3
-            className="font-bold text-3xl mb-4"
+            className="font-bold text-center text-3xl mb-4"
           >
             Feature 2 Text Goes Here
           </h3>
@@ -106,7 +106,7 @@ exports[`Landing renders correctly 1`] = `
           className="p-8"
         >
           <h3
-            className="font-bold text-3xl mb-4"
+            className="font-bold text-center text-3xl mb-4"
           >
             Feature 3 Will Be Shown
           </h3>

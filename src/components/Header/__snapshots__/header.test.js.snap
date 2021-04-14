@@ -75,6 +75,14 @@ exports[`Header renders correctly 1`] = `
               About
             </a>
           </li>
+          <li>
+            <a
+              className="px-4 hover:opacity-70"
+              href="/cart/"
+            >
+              Your Cart
+            </a>
+          </li>
         </ul>
       </div>
     </div>
