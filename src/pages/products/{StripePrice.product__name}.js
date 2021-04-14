@@ -1,9 +1,23 @@
 import * as React from "react"
 import { graphql, Link, navigate } from "gatsby"
-
 import { useShoppingCart } from 'use-shopping-cart'
 
 const ProductDetail = ({ data }) => {
+  const checkShipping = () => {
+    const shippingProduct = {
+      name: "Ground Shipping",
+      description: "Standard Ground Shipping",
+      id: data.contentfulSiteSettings.shippingApiId,
+      price: data.contentfulSiteSettings.shippingCost * 100,
+      currency: 'USD',
+      image: "https://files.stripe.com/links/MDB8YWNjdF8xSUlrY3FJNkNmRUNFS3dnfGZsX3Rlc3RfaGlDbEdXQ0s1QmgyQ0s4WDEyTnlkYXNS00dozCyHTS",
+    }
+    if (!(data.contentfulSiteSettings.shippingApiId in cartDetails)) {
+      addItem(shippingProduct); // Ground Shipping
+    }
+    setItemQuantity(data.contentfulSiteSettings.shippingApiId, 1);
+  }
+
   const product = {
     name: data.stripePrice.product.name,
     description: data.stripePrice.product.description,
@@ -14,9 +28,10 @@ const ProductDetail = ({ data }) => {
     size: data.stripePrice.product.metadata.size
   }
 
-  const { addItem } = useShoppingCart()
+  const { addItem, cartDetails, setItemQuantity } = useShoppingCart()
 
   return (
+    (data.stripePrice.id === data.contentfulSiteSettings.shippingApiId) ? <div></div> : // Catch shipping, don't show in store
     <div>
       <title>{product.name}</title>
       <main className="my-8">
@@ -50,6 +65,7 @@ const ProductDetail = ({ data }) => {
                   className="px-8 py-2 bg-green-600 text-white text-sm font-medium rounded hover:bg-green-500 focus:outline-none focus:bg-green-500"
                   onClick={() => {
                     addItem(product); 
+                    checkShipping();
                     navigate("/cart");
                   }}
                 >
@@ -80,6 +96,10 @@ export const data = graphql`
           type
           }
       }
+    }
+    contentfulSiteSettings {
+      shippingApiId
+      shippingCost
     }
   }
 `
