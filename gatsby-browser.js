@@ -5,7 +5,7 @@ import { loadStripe } from '@stripe/stripe-js'
 import { CartProvider } from 'use-shopping-cart'
 // import App from './App'
 // Remember to add your public Stripe key
-const stripePromise = loadStripe(`${process.env.STRIPE_PUBLISHABLE_KEY}`)
+const stripePromise = loadStripe(process.env.STRIPE_PUBLISHABLE_KEY)
 
 // const success_url = `${process.env.STRIPE_SUCCESS_URL}`;
 // const cancel_url = `${process.env.STRIPE_CANCEL_URL}`;
