@@ -4,17 +4,17 @@ orbs:
   welcome: circleci/welcome-orb@0.4.1
   heroku: circleci/heroku@0.0.10
 workflows:
-  test:
-    jobs:
-      - jest/test
-  welcome:
-    jobs:
-      - welcome/run
-  heroku_deploy:
-    jobs:
-      - heroku/deploy-via-git
   build:
     jobs:
         - jest/test
         - welcome/run
         - heroku/deploy-via-git
+  # test:
+  #   jobs:
+  #     - jest/test
+  # welcome:
+  #   jobs:
+  #     - welcome/run
+  # heroku_deploy:
+  #   jobs:
+  #     - heroku/deploy-via-git
