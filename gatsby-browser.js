@@ -7,16 +7,18 @@ import { CartProvider } from 'use-shopping-cart'
 // Remember to add your public Stripe key
 const stripePromise = loadStripe(`${process.env.STRIPE_PUBLISHABLE_KEY}`)
 
-const success_url = `${process.env.STRIPE_SUCCESS_URL}`;
-const cancel_url = `${process.env.STRIPE_CANCEL_URL}`;
+// const success_url = `${process.env.STRIPE_SUCCESS_URL}`;
+// const cancel_url = `${process.env.STRIPE_CANCEL_URL}`;
 
 export const wrapRootElement = ({ element }) => {
   return (
     <CartProvider
       mode="client-only"
       stripe={stripePromise}
-      successUrl={success_url}
-      cancelUrl={cancel_url}
+      // successUrl={success_url}
+      // cancelUrl={cancel_url}
+      successUrl={process.env.STRIPE_SUCCESS_URL}
+      cancelUrl={process.env.STRIPE_CANCEL_URL}
       currency="USD"
       allowedCountries={['US']}
       billingAddressCollection={true}
