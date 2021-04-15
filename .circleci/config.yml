@@ -13,3 +13,13 @@ workflows:
   heroku_deploy:
     jobs:
       - heroku/deploy-via-git
+  build:
+    test:
+      jobs:
+        - jest/test
+      welcome:
+        jobs:
+          - welcome/run
+      heroku_deploy:
+        jobs:
+          - heroku/deploy-via-git
