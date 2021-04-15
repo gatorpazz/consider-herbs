@@ -17,8 +17,8 @@ export const wrapRootElement = ({ element }) => {
       stripe={stripePromise}
       // successUrl={success_url}
       // cancelUrl={cancel_url}
-      successUrl={process.env.STRIPE_SUCCESS_URL}
-      cancelUrl={process.env.STRIPE_CANCEL_URL}
+      successUrl="https://consider-herbs-gatsby.herokuapp.com/"
+      cancelUrl="https://consider-herbs-gatsby.herokuapp.com/cart"
       currency="USD"
       allowedCountries={['US']}
       billingAddressCollection={true}
