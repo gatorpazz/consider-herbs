@@ -14,7 +14,7 @@ export const wrapRootElement = ({ element }) => {
   return (
     <CartProvider
       mode="client-only"
-      stripe={stripePromise}
+      stripe={loadStripe("pk_test_51IIkcqI6CfECEKwgFRsKCxUUE6CRiHgiQgFHilg4dD73fhDQ17rpaPSNA9NXvcgF8a9OcNbJh3A492qnOEZofZnB00V4ID78Od")}
       // successUrl={success_url}
       // cancelUrl={cancel_url}
       successUrl="https://consider-herbs-gatsby.herokuapp.com/"
