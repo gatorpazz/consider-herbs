@@ -74,7 +74,7 @@ export const PureLanding = ({ data, url }) => (
 )
 
 const Landing = () => {
-  const url = `${process.env.REACT_APP_MAILCHIMP_URL}`;
+  const url = process.env.GATSBY_REACT_APP_MAILCHIMP_URL;
 
   const data = useStaticQuery(graphql`
     query {

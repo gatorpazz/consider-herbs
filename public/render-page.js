@@ -32867,7 +32867,7 @@ const PureLanding = ({
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
   className: "p-8"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_mailchimp_subscribe__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  url: url,
+  url: "https://gmail.us1.list-manage.com/subscribe/post?u=a75cd765b04800fc5b0dc1887&id=e034a641d4",
   render: ({
     subscribe,
     status,
