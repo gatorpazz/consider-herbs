@@ -9,7 +9,6 @@ export const PureBlogPosts = ({ data }) => (
         <h1 className="font-bold text-5xl mb-4">
           {node.title}
         </h1>
-
         {/* // IMAGE */}
         {(node.imageUrl != null) ? <img src={node.imageUrl} alt={node.title} className="mt-5 mb-5" /> : <div></div>}
 
