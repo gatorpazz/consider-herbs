@@ -27,6 +27,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-mailchimp-subscribe": "^2.1.3",
+    "react-youtube": "^7.13.1",
     "use-shopping-cart": "^2.4.3"
   },
   "devDependencies": {
