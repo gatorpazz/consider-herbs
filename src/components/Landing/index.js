@@ -58,7 +58,7 @@ export const PureLanding = ({ data, url }) => (
       <div className="mb-12 mx-4 bg-gray-50 rounded-xl shadow-md overflow-hidden  text-center">
         <div className="p-8">
           <MailchimpSubscribe
-            url={url}
+            url='https://gmail.us1.list-manage.com/subscribe/post?u=a75cd765b04800fc5b0dc1887&amp;id=e034a641d4'
             render={({ subscribe, status, message }) => (
               <MailingListForm
                 status={status}
