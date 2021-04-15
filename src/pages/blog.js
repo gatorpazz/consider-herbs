@@ -1,5 +1,6 @@
 import * as React from "react"
 import Layout from '../components/Layout'
+import BlogPosts from '../components/BlogPosts'
 
 const Blog = () => {
   return (
@@ -9,12 +10,10 @@ const Blog = () => {
         <div>
           <div className="py-20">
             <div className="container mx-auto px-6">
-              <h1 className="font-bold text-5xl mb-4">
-                Things to share.
-              </h1>
-              <h2 className="font-semibold text-xl mb-4">
+              {/* <h2 className="font-semibold text-xl mb-4">
                 Replace w Blog Posts
-              </h2>
+              </h2> */}
+              <BlogPosts />
             </div>
           </div>
         </div>
