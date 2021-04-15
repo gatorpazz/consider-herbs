@@ -10,15 +10,15 @@ const stripePromise = loadStripe(process.env.STRIPE_PUBLISHABLE_KEY)
 export const wrapRootElement = ({ element }) => {
   return (
     <CartProvider
-    mode="client-only"
-    stripe={stripePromise}
-    successUrl="http://localhost:8000"
-    cancelUrl="http://localhost:8000/cart/"
-    currency="USD"
-    allowedCountries={['US']}
-    billingAddressCollection={true}
-    shipping_rates={["shr_1IfnFEI6CfECEKwgdvnNULcV"]}
-  >
+      mode="client-only"
+      stripe={stripePromise}
+      successUrl={process.env.STRIPE_SUCCESS_URL}
+      cancelUrl={process.env.STRIPE_CANCEL_URL}
+      currency="USD"
+      allowedCountries={['US']}
+      billingAddressCollection={true}
+      // shipping_rates={["shr_1IfnFEI6CfECEKwgdvnNULcV"]}
+    >
     {element}
   </CartProvider>
   )
