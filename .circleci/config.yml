@@ -17,4 +17,6 @@ workflows:
     jobs:
         - jest/test
         - welcome/run
-        - heroku/deploy-via-git
+        - run:
+          name: Deploy
+          command: curl -X POST -d {} ${NETLIFY_HOOK}
