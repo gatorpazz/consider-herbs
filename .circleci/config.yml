@@ -6,7 +6,7 @@ orbs:
 jobs:
   netlify:
     docker:
-      - image: alpine:3.7
+      - image: circleci/node:13.3.0-buster
     steps:
       - run:
           name: Netlify
