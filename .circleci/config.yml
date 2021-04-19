@@ -4,7 +4,7 @@ orbs:
   welcome: circleci/welcome-orb@0.4.1
   heroku: circleci/heroku@0.0.10
 jobs:
-  netlify:
+  build:
     docker:
       - image: circleci/node:13.3.0-buster
     steps:
