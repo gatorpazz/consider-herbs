@@ -17,4 +17,7 @@ workflows:
     jobs:
         - jest/test
         - welcome/run
-        run: - curl -X POST -d {} ${NETLIFY_HOOK}
+        steps:
+          - run:
+            name: Deploy
+            command: curl -X POST -d {} ${hook}
