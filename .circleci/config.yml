@@ -16,4 +16,6 @@ workflows:
     jobs:
       - jest/test
       - welcome/run
-      - netlify
+      - netlify:
+          requires: 
+            - jest/test
