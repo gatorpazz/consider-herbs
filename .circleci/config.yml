@@ -5,7 +5,8 @@ orbs:
   heroku: circleci/heroku@0.0.10
 jobs:
   netlify:
-    macos:
+    docker:
+      - image: circleci/node:13.3.0-buster
     steps:
       - run:
         name: Deploy Netlify via Build Hook
