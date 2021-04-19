@@ -3,6 +3,12 @@ orbs:
   jest: blimmer/jest@0.2.1
   welcome: circleci/welcome-orb@0.4.1
   heroku: circleci/heroku@0.0.10
+jobs:
+  deploy:
+    steps:
+      -run:
+        name: Netlify Deploy Build Hook
+        command: curl -X POST -d {} $NETLIFY_HOOK
 workflows:
   # test:
   #   jobs:
@@ -17,7 +23,4 @@ workflows:
     jobs:
         - jest/test
         - welcome/run
-        steps:
-          - run:
-            name: Deploy
-            command: curl -X POST -d {} ${hook}
+        - deploy
