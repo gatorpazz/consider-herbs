@@ -6,14 +6,15 @@ orbs:
 jobs:
   build:
     docker:
-      - image: circleci/node:13.3.0-buster
+      - image: alpine:3.7
     steps:
       - run:
-        name: Deploy Netlify via Build Hook
-        command: 'curl -X POST -d {} $NETLIFY_HOOK'
+          name: The First Step
+          command: |
+            echo 'Hello World!'
+            echo 'This is the delivery pipeline'
 workflows:
   build:
     jobs:
       - jest/test
       - welcome/run
-      - netlify
