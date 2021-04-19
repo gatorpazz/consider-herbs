@@ -4,10 +4,10 @@ orbs:
   welcome: circleci/welcome-orb@0.4.1
   heroku: circleci/heroku@0.0.10
 jobs:
-  netlify:
+  build:
     macos:
     steps:
-      - run: 
+      - run:
         name: Deploy Netlify via Build Hook
         command: curl -X POST -d {} $NETLIFY_HOOK
 workflows:
